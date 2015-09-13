@@ -5,11 +5,12 @@ Croatia open data
 
 ### Datasets we got so far:
 
-| Filename                                                    |       Date      |       Dataset description      | Source |
-|-------------------------------------------------------------|:---------------:|:------------------------------:|------:|
-| djecji_vrtici_rh.xls                                        |   09-SEP-2015   | Djecji vrtici u RH | [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_popis_vr#incoming-880) |
-| popis_osnovnih_i_srednjih_skola_u_Republici_Hrvatskoj.xlsx  |   11-AUG-2015   | Popis osnovnih i srednjih skola u Republici Hrvatskoj | [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_karta_pr#incoming-769) |
-| KartaProjekataZaWeb_6-8-2015.xls                            |   19-AUG-2015   |   09-SEP-2015   | [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_registar_7#incoming-804) |
+|       Dataset description      | Filename  |       Date      | Source |
+|------------------------------|-------------------------------------------------------------|:---------------:|------|
+| Djecji vrtici u RH | djecji_vrtici_rh.xls                                        |   09-SEP-2015   | [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_popis_vr#incoming-880) |
+| Popis osnovnih i srednjih skola u Republici Hrvatskoj | popis_osnovnih_i_srednjih_skola_u_Republici_Hrvatskoj.xlsx  |   11-AUG-2015   | [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_karta_pr#incoming-769) |
+| karta projekata na kojoj su prikazani projekti koji se provode na lokalnoj i regionalnoj razini, a financirani su u okviru operativnih programa Regionalna konkurentnost, Promet, Zaštita okoliša i Jačanje ljudskih potencijala u razdoblju 2007.-2013.   | KartaProjekataZaWeb_6-8-2015.xls                            |   19-AUG-2015   | [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_registar_7#incoming-804) |
+
 
 - **djecji_vrtici_rh.xls**, file date 9-SEP-2015, source [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_popis_vr#incoming-880)
 
@@ -40,7 +41,6 @@ Croatia open data
 - **Popis turistickih zajednica.xlsx**, Popis turističkih zajednica u RH, file date 18-AUG-2015, source [ImamoPravoZnati.org](http://imamopravoznati.org/request/popis_duznosnika_u_rh#incoming-771)
 
 - **Tablica kvaliteta goriva 18 12 14.doc, Tablica kvaliteta goriva 18 12 14.xlsx**, Provedene kontrole goriva u 2014. godini, file date 28-JUL-2015, source [ImamoPravoZnati.org](http://imamopravoznati.org/request/provedene_kontrole_goriva_u_2014#incoming-706)
-
 
 ### Other open data resources:
 
