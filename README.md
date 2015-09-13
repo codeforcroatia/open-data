@@ -5,12 +5,7 @@ Croatia open data
 
 ### Datasets we got so far:
 
-|       Dataset description      | Filename  |       Date      | Source |
-|-------------------------------------------------------------|-------------------------------------------------------------|:---------------:|------|
-| Djecji vrtici u RH | djecji_vrtici_rh.xls                                        |   09-SEP-2015   | [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_popis_vr#incoming-880) |
-| Popis osnovnih i srednjih skola u Republici Hrvatskoj | popis_osnovnih_i_srednjih_skola_u_Republici_Hrvatskoj.xlsx  |   11-AUG-2015   | [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_karta_pr#incoming-769) |
-| Karta projekata na kojoj su prikazani projekti koji se provode na lokalnoj i regionalnoj razini, a financirani su u okviru operativnih programa Regionalna konkurentnost, Promet, Zaštita okoliša i Jačanje ljudskih potencijala u razdoblju 2007.-2013.   | KartaProjekataZaWeb_6-8-2015.xls                            |   19-AUG-2015   | [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_registar_7#incoming-804) |
-
+**folder: 2015**
 
 - **djecji_vrtici_rh.xls**, file date 9-SEP-2015, source [ImamoPravoZnati.org](http://imamopravoznati.org/request/otvaranje_baze_podataka_popis_vr#incoming-880)
 
