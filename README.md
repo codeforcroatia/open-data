@@ -1,6 +1,8 @@
 open-data-hr
 ============
 
+[![Slack Status](http://slackin.codeforcroatia.org/badge.svg)](http://codeforcroatia.org/slackin)
+
 Croatia open data
 
 ### Datasets we got so far:
