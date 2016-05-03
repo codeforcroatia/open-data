@@ -2,16 +2,16 @@
 Kako biste nam pomogli prikupiti popis željenih podataka na data.gov.hr, ispunite niže podatke. --> 
 
 ### Naziv skupa podataka
-Recite nam kako se zove registar ili drugi skup podataka
+*Recite nam kako se zove registar ili drugi skup podataka:*
 
 ### Opis podataka
-Koje podatke očekuje vidjeti u tom skupu podataka
+*Koje podatke očekuje vidjeti u tom skupu podataka:*
 
 ### Izdavač
-Naziv tijela javne vlasti koje izrađuje podatke ili koji čuva te podatke
+*Naziv tijela javne vlasti koje izrađuje podatke ili koji čuva te podatke:*
 
 ### Zakonska osnova
-Postoji li zakonska rezulativa za ovaj skup podataka, ako da, navedite zakonski ili pod-zakonski akt
+*Postoji li zakonska rezulativa za ovaj skup podataka, ako da, navedite zakonski ili pod-zakonski akt:*
 
 ### Stanje podataka
 
