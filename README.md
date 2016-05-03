@@ -3,6 +3,10 @@ open-data-hr
 
 [![Slack Status](http://slackin.codeforcroatia.org/badge.svg)](http://codeforcroatia.org/slackin)
 
+Open data priorities
+
+[![Stories in Ready](https://badge.waffle.io/codeforcroatia/datasets-hr.svg?label=ready&title=Ready)](http://waffle.io/codeforcroatia/datasets-hr)
+
 Croatia open data
 
 ### Datasets we got so far:
