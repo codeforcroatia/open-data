@@ -1,9 +1,7 @@
-open-data-hr
+Croatia open data
 ============
 
 [![Slack Status](http://slackin.codeforcroatia.org/badge.svg)](http://codeforcroatia.org/slackin)
-
-#Croatia open data
 
 ### Open data priorities
 
@@ -43,7 +41,7 @@ open-data-hr
 
 - **Tablica kvaliteta goriva 18 12 14.doc, Tablica kvaliteta goriva 18 12 14.xlsx**, Provedene kontrole goriva u 2014. godini, file date 28-JUL-2015, source [ImamoPravoZnati.org](http://imamopravoznati.org/request/provedene_kontrole_goriva_u_2014#incoming-706)
 
-### Other open data resources:
+### Other open data resources
 
 https://app.box.com/s/66w21zd6p1aquac6hk1b
 
