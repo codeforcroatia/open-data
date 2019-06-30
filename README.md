@@ -5,7 +5,7 @@ Croatia open data
 
 ### Open data priorities
 
-[![Stories in Ready](https://badge.waffle.io/codeforcroatia/datasets-hr.svg?label=ready&title=Ready)](http://waffle.io/codeforcroatia/datasets-hr)
+Vidi pod [Projects](/projects)
 
 ### Datasets we got so far
 
@@ -45,7 +45,7 @@ Croatia open data
 
 https://app.box.com/s/66w21zd6p1aquac6hk1b
 
-https://communities.socrata.com/catalog/code-for-croatia/
+https://communities.socrata.com/catalogs/code-for-croatia/
 
 http://data.zagreb.hr
 
