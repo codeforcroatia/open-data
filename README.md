@@ -5,7 +5,7 @@ Croatia open data
 
 ### Open data priorities
 
-Vidi pod [Projects](/projects)
+Vidi pod [Projects](https://github.com/codeforcroatia/open-data/projects)
 
 ### Datasets we got so far
 
