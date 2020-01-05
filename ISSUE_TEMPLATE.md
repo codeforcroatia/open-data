@@ -20,3 +20,7 @@ Kako biste nam pomogli prikupiti popis željenih podataka na data.gov.hr, ispuni
 **Ako je objavljeno, na kojem URL linku se nalazi?** http://
 
 **Ako je objavljeno, u kojem je formatu?** (pdf/doc/xls/csv itd)
+
+**Pristup podacima je nakon sigurnosnog koda (npr. Captcha)?** (da/ne)
+
+**Pristup podacima je nakon registracije/logiranja sa korisničkim računom?** (da/ne)
