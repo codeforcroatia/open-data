@@ -1,0 +1,102 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource",
+      "path": "Popis turistickih zajednica.xlsx",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "RB"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "TZ ŽUPANIJA"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "Adresa, Ulica"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Adresa, Grad"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Telefon"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Fax"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "email",
+            "title": "e-mail"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "web"
+          }
+        ]
+      },
+      "title": "Popis turističkih zajednica",
+      "format": "xlsx",
+      "created": "2015-08-18T00:00:00.00Z",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Popis turističkih zajednica u RH (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/popis_turistickih_zajednica_u_rh#incoming-795"
+        }
+      ],
+      "description": "Predmetni popis u xls formatu sastavlja informativno\ntemeljem podataka o turističkim zajednicama iz Upisnika turističkih\nzajednica koji vodi nadležno Ministarstvo turizma. Predmetni popis u xls formatu sastavlja se za interne potrebe\nGlavnog ureda, Hrvatska turistička zajednica isti popis u xls formatu ne\nobjavljuje putem internetskih stranica."
+    }
+  ],
+  "name": "turisticke-zajednice",
+  "title": "Turističke zajednice u RH",
+  "description": "Popis turističkih zajednica Republike Hrvatske",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "HTZ",
+      "path": "https://htz.hr",
+      "role": "author"
+    },
+    {
+      "title": "Hrvoje Petrovic",
+      "role": "contributor"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}
