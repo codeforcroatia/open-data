@@ -17,6 +17,8 @@ Collection of datasets in this branch uses _Frictionless Data Specification_.
 
 For more info about the project as a whole, please visit [frictionlessdata.io](http://frictionlessdata.io).
 
+Create and verify your datapackage.json at [create.frictionlessdata.io](https://create.frictionlessdata.io/).
+
 ## Other open data resources
 
 https://app.box.com/s/66w21zd6p1aquac6hk1b
