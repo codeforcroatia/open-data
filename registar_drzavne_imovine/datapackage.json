@@ -1,0 +1,80 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource",
+      "path": "nekretnine_25052020.xlsx",
+      "format": "xlsx",
+      "profile": "tabular-data-resource",
+      "sources" : [{
+  "title": "Zahtjev za pristup informacijama: Registar državne imovine - Središnji registar u otvorenom obliku - 2020. godina",
+  "path": "http://imamopravoznati.org/request/registar_drzavne_imovine_sredisn_2#incoming-8877"
+  }],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "Obveznik"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Pojavni oblik"
+          },
+          {
+            "name": "field3",
+            "type": "number",
+            "format": "default",
+            "title": "Korisna površina (m²)"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Županija"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Adresa"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "ZK čestica"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "Kat. čestica"
+          }
+        ]
+      },
+      "title": "Registar državne imovine (raw)",
+      "description": "Raw dataset"
+    }
+  ],
+  "name": "registar-nekretnina",
+  "title": "Registar državne imovine",
+  "description": "Središnji registar sadrži popis državne imovine u obliku:\n– dionica i poslovnih udjela u trgovačkim društvima\n– nekretnina, uključujući i nekretnine čije je upravljanje i raspolaganje uređeno posebnim zakonom, a čiji je imatelj odnosno vlasnik Republika Hrvatska, zavodi i druge pravne osobe čiji je osnivač Republika Hrvatska\n– koncesija\n– kulturnih dobara\n– poljoprivrednog i šumskog zemljišta\n– evidencije postupaka koji se vode temeljem Zakona o naknadi za imovinu oduzetu za vrijeme jugoslavenske komunističke vladavine",
+  "homepage": "http://registar-imovina.gov.hr/",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "RDD",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "https://rdd.gov.hr/otvoreni-podaci/94"
+    }
+  ]
+}
