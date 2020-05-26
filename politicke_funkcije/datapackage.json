@@ -1,0 +1,104 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource",
+      "path": "ftjv.xls",
+      "profile": "tabular-data-resource",
+      "title": "Funkcije u tijelima javne vlasti u Republici Hrvatskoj (raw)",
+      "description": "FUNKCIJE U TIJELIMA JAVNE VLASTI sadrže imena osoba i podatke o obnašanju dužnosti ili visokih službi u tijelima javne vlasti od 1990. godine do danas.",
+      "created": "2015-08-18T00:00:00.00Z",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Funkcije u tijelima javne vlasti - imenik",
+          "path": "http://imamopravoznati.org/request/funkcije_u_tijelima_javne_vlasti_2#incoming-796"
+        }
+      ],
+      "format": "xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "description": "prezime, ime"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "description": "period [yyyy-mm-dd / yyyy-mm-dd]"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "description": "funkcija / tijelo javne vlasti"
+          }
+        ]
+      }
+    },
+    {
+      "name": "raw-classification",
+      "path": "ftjv-metadata.xls",
+      "title": "Funkcije u tijelima javne vlasti u Republici Hrvatskoj - klasifikacija funkcija (raw)",
+      "description": "Klasifikacija funkcija u tijelima javne vlasti",
+      "created": "2015-08-06T00:00:00.00Z",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Funkcije u tijelima javne vlasti - klasifikacije",
+          "path": "http://imamopravoznati.org/request/funkcije_u_tijelima_javne_vlasti#incoming-756"
+        }
+      ],
+      "profile": "tabular-data-resource",
+      "format": "xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "STANDARDIZIRANI NAZIV"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "OBUHVAĆA I"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "politicke-funkcije",
+  "title": "Političke fukcije u tijelima javne vlasti",
+  "description": "Političke funkcije u tijelima javne vlasti u Republici Hrvatskoj sadrže imena osoba i podatke o obnašanju dužnosti ili visokih službi u tijelima javne vlasti od 1990. godine do danas",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "DIGURED",
+      "path": "https://rdd.gov.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Lana Podgoršek",
+      "email": "lanapdg@users.noreply.github.com",
+      "role": "contributor"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}
