@@ -1,0 +1,86 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource",
+      "path": "popis_osnovnih_i_srednjih_skola_u_Republici_Hrvatskoj.xlsx",
+      "format": "xls",
+      "title": "Škole u RH (raw)",
+      "description": "Raw dataset",
+      "created": "2015-08-11T00:00:00.00Z",
+      "sources": [
+        {
+          "title": "Otvaranje baze podataka - popis škola u RH",
+          "path": "http://imamopravoznati.org/request/otvaranje_baze_podataka_popis_sk#incoming-770"
+        }
+      ],
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv ustanove"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "email",
+            "title": "Email"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "Adresa"
+          },
+          {
+            "name": "field4",
+            "type": "integer",
+            "format": "default",
+            "title": "Poštanski broj"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Mjesto"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Općina"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "skole-rh",
+  "title": "Škole u RH",
+  "description": "Popis škola u Republici Hrvatskoj",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "MZOS",
+      "path": "https://mzo.gov.hr",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}
