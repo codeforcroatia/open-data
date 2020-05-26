@@ -6,10 +6,13 @@
       "path": "nekretnine_25052020.xlsx",
       "format": "xlsx",
       "profile": "tabular-data-resource",
-      "sources" : [{
-  "title": "Zahtjev za pristup informacijama: Registar državne imovine - Središnji registar u otvorenom obliku - 2020. godina",
-  "path": "http://imamopravoznati.org/request/registar_drzavne_imovine_sredisn_2#incoming-8877"
-  }],
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar državne imovine - Središnji registar u otvorenom obliku - 2020. godina",
+          "path": "http://imamopravoznati.org/request/registar_drzavne_imovine_sredisn_2#incoming-8877"
+        }
+      ],
+      "created": "2020-05-25T00:00:00.00Z",
       "schema": {
         "fields": [
           {
@@ -68,7 +71,17 @@
   "contributors": [
     {
       "title": "RDD",
-      "role": "author"
+      "path": "http://rdd.gov.hr",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "TBD",
+      "role": "wrangler"
     }
   ],
   "licenses": [
