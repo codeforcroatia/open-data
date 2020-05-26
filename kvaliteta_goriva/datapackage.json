@@ -1,0 +1,99 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource",
+      "path": "Tablica kvaliteta goriva 18 12 14.xlsx",
+      "profile": "tabular-data-resource",
+      "title": "Provedene kontrole goriva u 2014. godini (raw)",
+      "description": "Raw dataset",
+      "created": "2015-07-28T00:00:00.00Z",
+      "format": "xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "BENZINSKA POSTAJA/GRANIČNI PRIJELAZ"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "VRSTA UZORKOVANOG GORIVA"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "REZULAT ANALIZE"
+          }
+        ]
+      }
+    },
+    {
+      "name": "raw-document",
+      "path": "Tablica kvaliteta goriva 18 12 14.doc",
+      "title": "Provedene kontrole goriva u 2014. godini (raw doc)",
+      "description": "Raw document",
+      "created": "2015-07-28T00:00:00.00Z",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Provedene kontrole goriva u 2014. godini",
+          "path": "http://imamopravoznati.org/request/provedene_kontrole_goriva_u_2014#incoming-706"
+        }
+      ],
+      "profile": "tabular-data-resource",
+      "format": "doc",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "BENZINSKA POSTAJA/GRANIČNI PRIJELAZ"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "VRSTA UZORKOVANOG GORIVA"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "REZULAT ANALIZE"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "kvaliteta-goriva",
+  "title": "Kvaliteta goriva",
+  "description": "Provedene kontrole goriva u RH",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "MINGO",
+      "path": "https://www.mingo.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}
