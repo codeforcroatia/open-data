@@ -1,0 +1,76 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource",
+      "path": "pfnk.xls",
+      "profile": "tabular-data-resource",
+      "title": "Funkcije u političkim strankama u Republici Hrvatskoj (raw)",
+      "description": "FUNKCIJE U POLITIČKIM STRANKAMA sadrže imena osoba i podatke o obnašanju dužnosti u političkim strankama od 1990. godine do danas, kao i podatke o stranačkim zastupničkim mandatima u Hrvatskome saboru. Izvori podataka su: Registar političkih stranaka Ministarstva uprave, Hrvatski sabor i političke stranke.",
+      "created": "2015-08-11T00:00:00.00Z",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Popis dužnosnika u RH",
+          "path": "http://imamopravoznati.org/request/popis_duznosnika_u_rh#incoming-771"
+        }
+      ],
+      "format": "xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "description": "prezime, ime"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "description": "period [yyyy-mm-dd / yyyy-mm-dd]"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "description": "funkcija / stranka"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "politicke-stranke-funkcije",
+  "title": "Funkcije u političkim strankama",
+  "description": "Funkcije u političkim strankama u Republici Hrvatskoj sadrže imena osoba i podatke o obnašanju dužnosti u političkim strankama od 1990. godine do danas, kao i podatke o stranačkim zastupničkim mandatima u Hrvatskome saboru.",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "DIGURED",
+      "path": "https://rdd.gov.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Hrvoje Petrovic",
+      "role": "contributor"
+    },
+    {
+      "title": "Sonja Radočaj",
+      "role": "contributor"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}
