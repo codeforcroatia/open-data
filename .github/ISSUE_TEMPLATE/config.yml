@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Code for Croatia Community Support
+    url: https://diskurs.codeforcroatia.org/
+    about: Please ask and answer questions here.
+  - name: GitHub Security Bug Bounty
+    url: https://codeforcroatia.org/contact/
+    about: Please report security vulnerabilities here.
+  - name: Code for Croatia
+    url: https://codeforcroatia.org/
+    about: Read more about our tech community.

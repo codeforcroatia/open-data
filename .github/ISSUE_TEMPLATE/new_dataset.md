@@ -1,3 +1,12 @@
+---
+name: New dataset
+about: Report here about new open government dataset
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 <!-- Hvala vam na kreiranju zahtjeva za objavu novog skupa podataka!
 Kako biste nam pomogli prikupiti popis željenih podataka na data.gov.hr, ispunite niže podatke. --> 
 
