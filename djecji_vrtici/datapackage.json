@@ -1,0 +1,97 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource",
+      "path": "djecji_vrtici_rh.xls",
+      "profile": "tabular-data-resource",
+      "created": "2015-09-13T00:00:00.00Z",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": ",.",
+            "description": "naziv vrtića"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv objekta",
+            "description": "naziv podružnice vrtića"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "Tip objekta"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Županija"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Naselje"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Ulica i broj"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "Telefon"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "Faks"
+          },
+          {
+            "name": "field9",
+            "type": "string",
+            "format": "default",
+            "title": "E-mail"
+          },
+          {
+            "name": "field10",
+            "type": "string",
+            "format": "default",
+            "title": "Odgovorna osoba"
+          },
+          {
+            "name": "field11",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv osnivaća",
+            "description": "osnivač"
+          }
+        ]
+      },
+      "format": "xls",
+      "title": "Dječji vrtići RH (raw)",
+      "description": "Raw dataset"
+    }
+  ],
+  "name": "djecji-vrtici-rh",
+  "title": "Dječji vrtići RH",
+  "description": "Dječji vrtići u Republici Hrvatskoj",
+  "version": "0.0.1",
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}
