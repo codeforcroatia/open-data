@@ -1,0 +1,219 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource",
+      "path": "Drustva za posredovanje u osiguranju i reosiguranju.xlsx",
+      "profile": "tabular-data-resource",
+      "title": "Registar društava za posredovanje u osiguranju i reosiguranju (raw)",
+      "created": "2015-08-19T00:00:00.00Z",
+      "format": "xlsx",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Otvaranje baze podataka - registar društva za posredovanje u osiguranju i reosiguranju",
+          "path": "http://imamopravoznati.org/request/otvaranje_baze_podataka_registar_7#incoming-804"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Rbr"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "RBS"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Sjedište"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Telefon"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Datum dozvole za rad"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "Klasa dozvole za rad"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "Ovlašteni posrednik"
+          }
+      ]
+    }
+  },
+    {
+      "name": "raw-dataset",
+      "path": "Drustva za posredovanje u osiguranju i reosiguranju.csv",
+      "title": "Registar društava za posredovanje u osiguranju i reosiguranju",
+      "created": "2015-08-19T00:00:00.00Z",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Rbr"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "RBS"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Sjedište"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Telefon"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Datum dozvole za rad"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "Klasa dozvole za rad"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "Ovlašteni posrednik"
+          }
+        ]
+      }
+    },
+    {
+      "name": "live-dataset",
+      "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-osiguranje-i-drustva-za-reosiguranje/getxml",
+      "profile": "tabular-data-resource",
+      "title": "Društva za osiguranje i društva za reosiguranje (live)",
+      "format": "xml",
+      "sources": [
+        {
+          "title": "Društva za brokerske poslove u osiguranju i/ili reosiguranju",
+          "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-osiguranje-i-drustva-za-reosiguranje/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "SudskiReg_href"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "OIB"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Sjediste",
+            "description": "adresa"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Tel",
+            "description": "telefon"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "WWW_href",
+            "description": "web stranica"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "VrstaOsigNaziv"
+          }
+      ]
+      }
+    }
+  ],
+  "name": "drustva-osiguranje-reosiguranje",
+  "title": "Društva za osiguranje i društva za reosiguranje",
+  "description": "Društva za posredovanje u osiguranju i reosiguranju",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "HANFA",
+      "path": "http://www.hanfa.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}
