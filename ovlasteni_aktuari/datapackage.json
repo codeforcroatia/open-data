@@ -1,0 +1,172 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource-2015",
+      "path": "Ovlasteni aktuari.xlsx",
+      "profile": "tabular-data-resource",
+      "title": "Registar ovlaštenih aktuara (raw)",
+      "created": "2015-08-19T00:00:00.00Z",
+      "format": "xlsx",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar ovlaštenih aktuara (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_ovlastenih_aktuara_otva#incoming-801"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Rbr"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Ime"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "Prezime"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Datum ovlaštenja"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Dozvolu izdao"
+          }
+      ]
+    }
+  },
+    {
+      "name": "raw-dataset-2015",
+      "path": "Ovlasteni aktuari.csv",
+      "title": "Registar ovlaštenih aktuara",
+      "created": "2015-08-19T00:00:00.00Z",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar ovlaštenih aktuara (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_ovlastenih_aktuara_otva#incoming-801"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Rbr"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Ime"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "Prezime"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Datum ovlaštenja"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Dozvolu izdao"
+          }
+      ]
+    }
+    },
+    {
+      "name": "live-dataset",
+      "path": "https://www.hanfa.hr/trziste-osiguranja/registri/ovlasteni-aktuari/getxml",
+      "profile": "tabular-data-resource",
+      "title": "Ovlašteni aktuari (live)",
+      "format": "xml",
+      "sources": [
+        {
+          "title": "Ovlašteni aktuari",
+          "path": "https://www.hanfa.hr/trziste-osiguranja/registri/ovlasteni-aktuari/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "ime",
+            "type": "string",
+            "format": "default",
+            "title": "Ime"
+          },
+          {
+            "name": "prezime",
+            "type": "string",
+            "format": "default",
+            "title": "Prezime"
+          },
+          {
+            "name": "DatumRjesenja",
+            "type": "string",
+            "format": "default",
+            "title": "Datum ovlaštenja"
+          },
+          {
+            "name": "DozvoluIzdao",
+            "type": "string",
+            "format": "default",
+            "title": "Dozvolu izdao"
+          }
+      ]
+      }
+    }
+  ],
+  "name": "ovlasteni-aktuari",
+  "title": "Ovlašteni aktuari",
+  "description": "Aktuar je stručnjak koji se bavi problemima financijske neizvjesnosti i rizika koristeći matematičke metode teorije vjerojatnosti, statistike i financijske matematike. Posao aktuara uključuje analizu podataka iz prošlosti, procjenu postojećih rizika i razvoj modela za projekciju budućih događaja. Ovlašteni aktuar potvrđuje pravilnost obračuna tehničkih pričuva društva za osiguranje (pričuve za prijenosne premije, pričuve za bonuse i popuste, pričuve šteta, pričuve za kolebanje šteta ako društvo obavlja poslove osiguranja kredita, druge tehničke pričuve osiguranja, matematičke pričuve životnih osiguranja, posebne pričuve životnih osiguranja kod kojih osiguranik preuzima na sebe investicijski rizik) u vlastoručno potpisanom Mišljenju ovlaštenog aktuara o obračunu odgovarajuće tehničke pričuve.",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "HANFA",
+      "path": "http://www.hanfa.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Sonja Radočaj",
+      "role": "contributor"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}

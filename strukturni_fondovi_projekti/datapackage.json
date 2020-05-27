@@ -1,0 +1,193 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource-2015",
+      "path": "KartaProjekataZaWeb_6-8-2015.xlsx",
+      "profile": "tabular-data-resource",
+      "title": "Europski strukturni i investicijski fondovi - popis projekata s karte (raw, 2015)",
+      "created": "2015-08-10T00:00:00.00Z",
+      "format": "xls",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Otvaranje baze podataka - Karta projekata",
+          "path": "http://imamopravoznati.org/request/otvaranje_baze_podataka_karta_pr#incoming-769"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv projekta"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Fond"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "NUTSII"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Županija"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Korisnik"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Opis projekta"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "Datum početka provedbe aktivnosti"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "Zaključni datum provedbe aktivnosti"
+          },
+          {
+            "name": "field9",
+            "type": "string",
+            "format": "default",
+            "title": "Bespovratna sredstva"
+          },
+          {
+            "name": "field10",
+            "type": "string",
+            "format": "default",
+            "title": "Ukupno prihvatljivi troškovi"
+          }
+      ]
+    }
+  },
+    {
+      "name": "raw-resource-2017",
+      "path": "KartaProjekataZaWeb1122017.csv",
+      "title": "Europski strukturni i investicijski fondovi - popis projekata s karte (raw, 2017)",
+      "created": "2017-02-11T00:00:00.00Z",
+      "format": "xls",
+      "profile": "tabular-data-resource",
+      "sources": [
+        {
+          "title": "Karta projekata",
+          "path": "http://arhiva.strukturnifondovi.hr/karte-projekata"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv projekta"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Fond"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "NUTSII"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Županija"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Korisnik"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Opis projekta"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "Datum ugovaranja"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "Zaključni datum provedbe aktivnosti"
+          },
+          {
+            "name": "field9",
+            "type": "string",
+            "format": "default",
+            "title": "Bespovratna sredstva"
+          },
+          {
+            "name": "field10",
+            "type": "string",
+            "format": "default",
+            "title": "Ukupno prihvatljivi troškovi"
+          },
+          {
+            "name": "field11",
+            "type": "string",
+            "format": "default",
+            "title": "Status_projekta"
+          }
+      ]
+    }
+    }
+  ],
+  "name": "ovlasteni-aktuari",
+  "title": "Ovlašteni aktuari",
+  "description": "Na karti projekata prikazani su projekti koji se provode na lokalnoj i regionalnoj razini, a financirani su u okviru operativnih programa Regionalna konkurentnost, Promet, Zaštita okoliša i Jačanje ljudskih potencijala u razdoblju 2007.-2013. Na karti nisu uključeni projekti tehničke pomoći kao ni projekti namijenjeni za pripremu projekata i projektne dokumentacije. Projekti su na karti prikazani obzirom na lokaciju na kojoj se provode, a ne prema sjedištu nositelja projekata. Pojedini projekti se provode u više županija pa se ti projekti, kao i njihova financijska vrijednost, istovremeno prikazuje u svim županijama u kojima se provode.",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "Ministarstvo regionalnoga razvoja i fondova Europske unije",
+      "path": "https://razvoj.gov.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}

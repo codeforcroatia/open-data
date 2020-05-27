@@ -1,0 +1,143 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource-2015",
+      "path": "Registar stambenih stedionica koje imaju dozvolu za zastupanje u osiguranju.xlsx",
+      "profile": "tabular-data-resource",
+      "title": "Registar stambenih štedionica koje imaju dozvolu za zastupanje u osiguranju (raw)",
+      "created": "2015-09-03T00:00:00.00Z",
+      "format": "xlsx",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar stambene štedionice koje imaju dozvolu za zastupanje u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_stambene_stedionice_koj#incoming-855"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Br."
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "RBS"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Sjedište"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Telefon"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Sudski registar"
+          }
+      ]
+    }
+  },
+    {
+      "name": "raw-dataset-2015",
+      "path": "Registar stambenih stedionica koje imaju dozvolu za zastupanje u osiguranju.csv",
+      "title": "Registar stambenih štedionica koje imaju dozvolu za zastupanje u osiguranju",
+      "created": "2015-09-03T00:00:00.00Z",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar stambene štedionice koje imaju dozvolu za zastupanje u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_stambene_stedionice_koj#incoming-855"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Br."
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "RBS"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Sjedište"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Telefon"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Sudski registar"
+          }
+      ]
+    }
+    }
+  ],
+  "name": "stambene-stedionice-zastupanje-osiguranje",
+  "title": "Stambene štedionice koje imaju dozvolu za zastupanje u osiguranju",
+  "description": "n/a",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "HANFA",
+      "path": "http://www.hanfa.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Kaja Pavlinić",
+      "role": "contributor"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}

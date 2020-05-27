@@ -3,15 +3,15 @@
   "resources": [
     {
       "name": "raw-resource-2015",
-      "path": "Drustva za posredovanje u osiguranju i reosiguranju.xlsx",
+      "path": "Registar obrta za zastupanje u osiguranju.xlsx",
       "profile": "tabular-data-resource",
-      "title": "Registar društava za posredovanje u osiguranju i reosiguranju (raw)",
-      "created": "2015-08-19T00:00:00.00Z",
+      "title": "Registar obrta za zastupanje u osiguranju (raw)",
+      "created": "2015-09-08T00:00:00.00Z",
       "format": "xlsx",
       "sources": [
         {
-          "title": "Zahtjev za pristup informacijama: Otvaranje baze podataka - registar društva za posredovanje u osiguranju i reosiguranju",
-          "path": "http://imamopravoznati.org/request/otvaranje_baze_podataka_registar_7#incoming-804"
+          "title": "Zahtjev za pristup informacijama: Registar obrta za zastupanje u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_obrta_za_zastupanje_u_o#incoming-870"
         }
       ],
       "schema": {
@@ -20,19 +20,19 @@
             "name": "field1",
             "type": "integer",
             "format": "default",
-            "title": "Rbr"
+            "title": "Br."
           },
           {
             "name": "field2",
             "type": "string",
             "format": "default",
-            "title": "RBS"
+            "title": "Naziv"
           },
           {
             "name": "field3",
             "type": "string",
             "format": "default",
-            "title": "Naziv"
+            "title": "RBS"
           },
           {
             "name": "field4",
@@ -51,48 +51,42 @@
             "type": "string",
             "format": "default",
             "title": "Datum dozvole za rad"
-          },
-          {
-            "name": "field7",
-            "type": "string",
-            "format": "default",
-            "title": "Klasa dozvole za rad"
-          },
-          {
-            "name": "field8",
-            "type": "string",
-            "format": "default",
-            "title": "Ovlašteni posrednik"
           }
       ]
     }
   },
     {
       "name": "raw-dataset-2015",
-      "path": "Drustva za posredovanje u osiguranju i reosiguranju.csv",
-      "title": "Registar društava za posredovanje u osiguranju i reosiguranju",
-      "created": "2015-08-19T00:00:00.00Z",
+      "path": "Registar obrta za zastupanje u osiguranju.csv",
+      "title": "Registar obrta za zastupanje u osiguranju",
+      "created": "2015-09-08T00:00:00.00Z",
       "format": "csv",
       "profile": "tabular-data-resource",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar obrta za zastupanje u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_obrta_za_zastupanje_u_o#incoming-870"
+        }
+      ],
       "schema": {
         "fields": [
           {
             "name": "field1",
             "type": "integer",
             "format": "default",
-            "title": "Rbr"
+            "title": "Br."
           },
           {
             "name": "field2",
             "type": "string",
             "format": "default",
-            "title": "RBS"
+            "title": "Naziv"
           },
           {
             "name": "field3",
             "type": "string",
             "format": "default",
-            "title": "Naziv"
+            "title": "RBS"
           },
           {
             "name": "field4",
@@ -111,88 +105,79 @@
             "type": "string",
             "format": "default",
             "title": "Datum dozvole za rad"
-          },
-          {
-            "name": "field7",
-            "type": "string",
-            "format": "default",
-            "title": "Klasa dozvole za rad"
-          },
-          {
-            "name": "field8",
-            "type": "string",
-            "format": "default",
-            "title": "Ovlašteni posrednik"
           }
-        ]
-      }
+      ]
+    }
     },
     {
       "name": "live-dataset",
-      "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-osiguranje-i-drustva-za-reosiguranje/getxml",
+      "path": "https://www.hanfa.hr/trziste-osiguranja/registri/obrtnici-zastupnici-u-osiguranju/getxml",
       "profile": "tabular-data-resource",
-      "title": "Društva za osiguranje i društva za reosiguranje (live)",
+      "title": "Obrtnici zastupnici u osiguranju (live)",
       "format": "xml",
       "sources": [
         {
-          "title": "Društva za osiguranje i društva za reosiguranje",
-          "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-osiguranje-i-drustva-za-reosiguranje/"
+          "title": "Obrtnici zastupnici u osiguranju",
+          "path": "https://www.hanfa.hr/trziste-osiguranja/registri/obrtnici-zastupnici-u-osiguranju/"
         }
       ],
       "schema": {
         "fields": [
           {
-            "name": "field1",
+            "name": "Naziv",
             "type": "string",
             "format": "default",
             "title": "Naziv"
           },
           {
-            "name": "field2",
+            "name": "Sjediste",
             "type": "string",
             "format": "default",
-            "title": "SudskiReg_href"
+            "title": "Adresa"
           },
           {
-            "name": "field3",
+            "name": "OIB",
             "type": "string",
             "format": "default",
             "title": "OIB"
           },
           {
-            "name": "field4",
+            "name": "RBS",
             "type": "string",
             "format": "default",
-            "title": "Sjediste",
-            "description": "adresa"
+            "title": "Registarski broj obrta"
           },
           {
-            "name": "field5",
+            "name": "OdgovornaOsoba",
             "type": "string",
             "format": "default",
-            "title": "Tel",
-            "description": "telefon"
+            "title": "Odgovorna osoba"
           },
           {
-            "name": "field6",
+            "name": "DatumDozvoleZaRad",
             "type": "string",
             "format": "default",
-            "title": "WWW_href",
-            "description": "web stranica"
+            "title": "Datum upisa u registar"
           },
           {
-            "name": "field7",
+            "name": "UgovorOZastupanju",
             "type": "string",
             "format": "default",
-            "title": "VrstaOsigNaziv"
+            "title": "Naziv društva koje zastupa"
+          },
+          {
+            "name": "DrzaveClanice",
+            "type": "string",
+            "format": "default",
+            "title": "Države u kojima prekogranično pruža usluge"
           }
       ]
       }
     }
   ],
-  "name": "drustva-osiguranje-reosiguranje",
-  "title": "Društva za osiguranje i društva za reosiguranje",
-  "description": "Društva za posredovanje u osiguranju i reosiguranju",
+  "name": "obrti-zastupanje-osiguranje",
+  "title": "Obrtnici zastupnici u osiguranju",
+  "description": "n/a",
   "version": "0.0.1",
   "contributors": [
     {

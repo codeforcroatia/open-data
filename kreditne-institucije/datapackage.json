@@ -3,15 +3,15 @@
   "resources": [
     {
       "name": "raw-resource-2015",
-      "path": "Drustva za posredovanje u osiguranju i reosiguranju.xlsx",
+      "path": "Registar banaka koje imaju dozvolu za zastupanje u osiguranju.xlsx",
       "profile": "tabular-data-resource",
-      "title": "Registar društava za posredovanje u osiguranju i reosiguranju (raw)",
-      "created": "2015-08-19T00:00:00.00Z",
+      "title": "Registar banaka koje imaju dozvolu za zastupanje u osiguranju (raw)",
+      "created": "2015-09-03T00:00:00.00Z",
       "format": "xlsx",
       "sources": [
         {
-          "title": "Zahtjev za pristup informacijama: Otvaranje baze podataka - registar društva za posredovanje u osiguranju i reosiguranju",
-          "path": "http://imamopravoznati.org/request/otvaranje_baze_podataka_registar_7#incoming-804"
+          "title": "Zahtjev za pristup informacijama: Registar banke koje imaju dozvolu za zastupanje u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_banke_koje_imaju_dozvol#incoming-852"
         }
       ],
       "schema": {
@@ -20,19 +20,19 @@
             "name": "field1",
             "type": "integer",
             "format": "default",
-            "title": "Rbr"
+            "title": "Br."
           },
           {
             "name": "field2",
             "type": "string",
             "format": "default",
-            "title": "RBS"
+            "title": "Naziv"
           },
           {
             "name": "field3",
             "type": "string",
             "format": "default",
-            "title": "Naziv"
+            "title": "RBS"
           },
           {
             "name": "field4",
@@ -50,49 +50,49 @@
             "name": "field6",
             "type": "string",
             "format": "default",
-            "title": "Datum dozvole za rad"
+            "title": "Internetska stranica"
           },
           {
             "name": "field7",
             "type": "string",
             "format": "default",
-            "title": "Klasa dozvole za rad"
-          },
-          {
-            "name": "field8",
-            "type": "string",
-            "format": "default",
-            "title": "Ovlašteni posrednik"
+            "title": "Poveznica na Sudski registar"
           }
       ]
     }
   },
     {
       "name": "raw-dataset-2015",
-      "path": "Drustva za posredovanje u osiguranju i reosiguranju.csv",
-      "title": "Registar društava za posredovanje u osiguranju i reosiguranju",
-      "created": "2015-08-19T00:00:00.00Z",
+      "path": "Registar banaka koje imaju dozvolu za zastupanje u osiguranju.csv",
+      "title": "Registar banaka koje imaju dozvolu za zastupanje u osiguranju",
+      "created": "2015-09-03T00:00:00.00Z",
       "format": "csv",
       "profile": "tabular-data-resource",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar banke koje imaju dozvolu za zastupanje u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_banke_koje_imaju_dozvol#incoming-852"
+        }
+      ],
       "schema": {
         "fields": [
           {
             "name": "field1",
             "type": "integer",
             "format": "default",
-            "title": "Rbr"
+            "title": "Br."
           },
           {
             "name": "field2",
             "type": "string",
             "format": "default",
-            "title": "RBS"
+            "title": "Naziv"
           },
           {
             "name": "field3",
             "type": "string",
             "format": "default",
-            "title": "Naziv"
+            "title": "RBS"
           },
           {
             "name": "field4",
@@ -110,89 +110,56 @@
             "name": "field6",
             "type": "string",
             "format": "default",
-            "title": "Datum dozvole za rad"
+            "title": "Internetska stranica"
           },
           {
             "name": "field7",
             "type": "string",
             "format": "default",
-            "title": "Klasa dozvole za rad"
-          },
-          {
-            "name": "field8",
-            "type": "string",
-            "format": "default",
-            "title": "Ovlašteni posrednik"
+            "title": "Poveznica na Sudski registar"
           }
-        ]
-      }
+      ]
+    }
     },
     {
       "name": "live-dataset",
-      "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-osiguranje-i-drustva-za-reosiguranje/getxml",
+      "path": "https://www.hanfa.hr/trziste-osiguranja/registri/kreditne-institucije/getxml",
       "profile": "tabular-data-resource",
-      "title": "Društva za osiguranje i društva za reosiguranje (live)",
+      "title": "Kreditne institucije (live)",
       "format": "xml",
       "sources": [
         {
-          "title": "Društva za osiguranje i društva za reosiguranje",
-          "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-osiguranje-i-drustva-za-reosiguranje/"
+          "title": "Kreditne institucije",
+          "path": "https://www.hanfa.hr/trziste-osiguranja/registri/kreditne-institucije/"
         }
       ],
       "schema": {
         "fields": [
           {
-            "name": "field1",
+            "name": "Naziv",
             "type": "string",
             "format": "default",
             "title": "Naziv"
           },
           {
-            "name": "field2",
+            "name": "SudskiReg_href",
             "type": "string",
             "format": "default",
-            "title": "SudskiReg_href"
+            "title": "Poveznica na Sudski registar"
           },
           {
-            "name": "field3",
+            "name": "Sjediste",
             "type": "string",
             "format": "default",
-            "title": "OIB"
-          },
-          {
-            "name": "field4",
-            "type": "string",
-            "format": "default",
-            "title": "Sjediste",
-            "description": "adresa"
-          },
-          {
-            "name": "field5",
-            "type": "string",
-            "format": "default",
-            "title": "Tel",
-            "description": "telefon"
-          },
-          {
-            "name": "field6",
-            "type": "string",
-            "format": "default",
-            "title": "WWW_href",
-            "description": "web stranica"
-          },
-          {
-            "name": "field7",
-            "type": "string",
-            "format": "default",
-            "title": "VrstaOsigNaziv"
+            "title": "Adresa"
           }
       ]
       }
     }
   ],
-  "name": "drustva-osiguranje-reosiguranje",
-  "title": "Društva za osiguranje i društva za reosiguranje",
-  "description": "Društva za posredovanje u osiguranju i reosiguranju",
+  "name": "kreditne-institucije",
+  "title": "Kreditne institucije",
+  "description": "Kreditne institucije su pravne osobe čija je djelatnost primanje depozita ili drugih povratnih sredstava fizičkih i pravnih osoba te odobravanje kredita za svoj račun, a posluju u skladu s posebnim propisima koji uređuju njihovu djelatnost.",
   "version": "0.0.1",
   "contributors": [
     {
@@ -201,7 +168,7 @@
       "role": "publisher"
     },
     {
-      "title": "Sonja Radočaj",
+      "title": "Kaja Pavlinić",
       "role": "contributor"
     },
     {

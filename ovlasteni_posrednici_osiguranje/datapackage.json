@@ -1,0 +1,143 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource-2015",
+      "path": "Ovlasteni posrednici u osiguranju.xlsx",
+      "profile": "tabular-data-resource",
+      "title": "Registar posrednika u osiguranju (raw)",
+      "created": "2015-08-26T00:00:00.00Z",
+      "format": "xlsx",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar posrednika u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_posrednika_u_osiguranju#incoming-826"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Rbr"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Ime"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "Prezime"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "RBS"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Datum ovlaštenja"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Klasa ovlaštenja"
+          }
+      ]
+    }
+  },
+    {
+      "name": "raw-dataset-2015",
+      "path": "Ovlasteni posrednici u osiguranju.csv",
+      "title": "Registar posrednika u osiguranju",
+      "created": "2015-08-26T00:00:00.00Z",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar posrednika u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_posrednika_u_osiguranju#incoming-826"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Rbr"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Ime"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "Prezime"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "RBS"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Datum_ovlastenja"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Klasa_ovlastenja"
+          }
+      ]
+    }
+    }
+  ],
+  "name": "ovlasteni-posrednici-osiguranje",
+  "title": "Ovlašteni posrednici u osiguranju",
+  "description": "Posrednik u osiguranju je fizička ili pravna osoba, osim društva za osiguranje ili društva za reosiguranje i njihovih zaposlenika i osim sporednog posrednika u osiguranju, koja za primitak ima pravo obavljati ili obavlja poslove distribucije osiguranja. Posrednik ili 'broker' za osiguranje je savjetnik ili konzultant za osiguranje imovine i osoba koji razumije potrebe i djelatnost klijenta, pomaže im u upravljanju rizicima te posreduje pri sklapanju ugovora.",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "HANFA",
+      "path": "http://www.hanfa.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Sonja Radočaj",
+      "role": "contributor"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}

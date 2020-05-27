@@ -3,15 +3,15 @@
   "resources": [
     {
       "name": "raw-resource-2015",
-      "path": "Drustva za posredovanje u osiguranju i reosiguranju.xlsx",
+      "path": "Drustva za zastupanje u osiguranju.xlsx",
       "profile": "tabular-data-resource",
-      "title": "Registar društava za posredovanje u osiguranju i reosiguranju (raw)",
-      "created": "2015-08-19T00:00:00.00Z",
+      "title": "Registar društva za zastupanje u osiguranju (raw)",
+      "created": "2015-08-26T00:00:00.00Z",
       "format": "xlsx",
       "sources": [
         {
-          "title": "Zahtjev za pristup informacijama: Otvaranje baze podataka - registar društva za posredovanje u osiguranju i reosiguranju",
-          "path": "http://imamopravoznati.org/request/otvaranje_baze_podataka_registar_7#incoming-804"
+          "title": "Zahtjev za pristup informacijama: Registar društva za zastupanje u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_drustva_za_zastupanje_u#incoming-827"
         }
       ],
       "schema": {
@@ -20,151 +20,25 @@
             "name": "field1",
             "type": "integer",
             "format": "default",
-            "title": "Rbr"
+            "title": "RBR"
           },
           {
             "name": "field2",
             "type": "string",
             "format": "default",
-            "title": "RBS"
+            "title": "Naziv"
           },
           {
             "name": "field3",
             "type": "string",
             "format": "default",
-            "title": "Naziv"
+            "title": "RBS"
           },
           {
             "name": "field4",
             "type": "string",
             "format": "default",
             "title": "Sjedište"
-          },
-          {
-            "name": "field5",
-            "type": "string",
-            "format": "default",
-            "title": "Telefon"
-          },
-          {
-            "name": "field6",
-            "type": "string",
-            "format": "default",
-            "title": "Datum dozvole za rad"
-          },
-          {
-            "name": "field7",
-            "type": "string",
-            "format": "default",
-            "title": "Klasa dozvole za rad"
-          },
-          {
-            "name": "field8",
-            "type": "string",
-            "format": "default",
-            "title": "Ovlašteni posrednik"
-          }
-      ]
-    }
-  },
-    {
-      "name": "raw-dataset-2015",
-      "path": "Drustva za posredovanje u osiguranju i reosiguranju.csv",
-      "title": "Registar društava za posredovanje u osiguranju i reosiguranju",
-      "created": "2015-08-19T00:00:00.00Z",
-      "format": "csv",
-      "profile": "tabular-data-resource",
-      "schema": {
-        "fields": [
-          {
-            "name": "field1",
-            "type": "integer",
-            "format": "default",
-            "title": "Rbr"
-          },
-          {
-            "name": "field2",
-            "type": "string",
-            "format": "default",
-            "title": "RBS"
-          },
-          {
-            "name": "field3",
-            "type": "string",
-            "format": "default",
-            "title": "Naziv"
-          },
-          {
-            "name": "field4",
-            "type": "string",
-            "format": "default",
-            "title": "Sjedište"
-          },
-          {
-            "name": "field5",
-            "type": "string",
-            "format": "default",
-            "title": "Telefon"
-          },
-          {
-            "name": "field6",
-            "type": "string",
-            "format": "default",
-            "title": "Datum dozvole za rad"
-          },
-          {
-            "name": "field7",
-            "type": "string",
-            "format": "default",
-            "title": "Klasa dozvole za rad"
-          },
-          {
-            "name": "field8",
-            "type": "string",
-            "format": "default",
-            "title": "Ovlašteni posrednik"
-          }
-        ]
-      }
-    },
-    {
-      "name": "live-dataset",
-      "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-osiguranje-i-drustva-za-reosiguranje/getxml",
-      "profile": "tabular-data-resource",
-      "title": "Društva za osiguranje i društva za reosiguranje (live)",
-      "format": "xml",
-      "sources": [
-        {
-          "title": "Društva za osiguranje i društva za reosiguranje",
-          "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-osiguranje-i-drustva-za-reosiguranje/"
-        }
-      ],
-      "schema": {
-        "fields": [
-          {
-            "name": "field1",
-            "type": "string",
-            "format": "default",
-            "title": "Naziv"
-          },
-          {
-            "name": "field2",
-            "type": "string",
-            "format": "default",
-            "title": "SudskiReg_href"
-          },
-          {
-            "name": "field3",
-            "type": "string",
-            "format": "default",
-            "title": "OIB"
-          },
-          {
-            "name": "field4",
-            "type": "string",
-            "format": "default",
-            "title": "Sjediste",
-            "description": "adresa"
           },
           {
             "name": "field5",
@@ -177,32 +51,165 @@
             "name": "field6",
             "type": "string",
             "format": "default",
-            "title": "WWW_href",
-            "description": "web stranica"
+            "title": "DatumOvlastenja"
           },
           {
             "name": "field7",
             "type": "string",
             "format": "default",
-            "title": "VrstaOsigNaziv"
+            "title": "KlasaOvlastenja"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "OvlasteniZastupnici"
+          }
+      ]
+    }
+  },
+    {
+      "name": "raw-dataset-2015",
+      "path": "Drustva za zastupanje u osiguranju.csv",
+      "title": "Registar društva za zastupanje u osiguranju",
+      "created": "2015-08-26T00:00:00.00Z",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar društva za zastupanje u osiguranju (otvaranje baze podataka)",
+          "path": "http://imamopravoznati.org/request/registar_drustva_za_zastupanje_u#incoming-827"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "RBR"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "RBS"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "Sjedište"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Tel",
+            "description": "telefon"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "description": "DatumOvlastenja"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "KlasaOvlastenja"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "OvlasteniZastupnici"
+          }
+      ]
+    }
+    },
+    {
+      "name": "live-dataset",
+      "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-zastupanje-u-osiguranju/getxml",
+      "profile": "tabular-data-resource",
+      "title": "Društva za zastupanje u osiguranju (live)",
+      "format": "xml",
+      "sources": [
+        {
+          "title": "Društva za zastupanje u osiguranju",
+          "path": "https://www.hanfa.hr/trziste-osiguranja/registri/drustva-za-zastupanje-u-osiguranju/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "Naziv",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv"
+          },
+          {
+            "name": "Sjediste",
+            "type": "string",
+            "format": "default",
+            "title": "Adresa"
+          },
+          {
+            "name": "OIB",
+            "type": "string",
+            "format": "default",
+            "title": "OIB"
+          },
+          {
+            "name": "RBS",
+            "type": "string",
+            "format": "default",
+            "title": "Registarski broj"
+          },
+          {
+            "name": "OdgovornaOsoba",
+            "type": "string",
+            "format": "default",
+            "title": "Odgovorna osoba"
+          },
+          {
+            "name": "DatumOvlastenja",
+            "type": "string",
+            "format": "default",
+            "title": "Datum upisa u registar"
+          },
+          {
+            "name": "UgovorOZastupanju",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv društva koje zastupa"
+          },
+          {
+            "name": "DrzaveClanice",
+            "type": "string",
+            "format": "default",
+            "title": "Države u kojima prekogranično pruža usluge"
           }
       ]
       }
     }
   ],
-  "name": "drustva-osiguranje-reosiguranje",
-  "title": "Društva za osiguranje i društva za reosiguranje",
-  "description": "Društva za posredovanje u osiguranju i reosiguranju",
+  "name": "drustva-zastupanje-osiguranje",
+  "title": "Društva za zastupanje u osiguranju",
+  "description": "Društvo za zastupanje u osiguranju je pravna osoba sa sjedištem u Republici Hrvatskoj koja obavlja gospodarsku djelatnost pružanja usluga zastupanja u osiguranju i koja je dobila dozvolu nadzornog tijela za obavljanje djelatnosti zastupanja u osiguranju. Društvo za zastupanje u osiguranju ne može se upisati u sudski registar prije dobivanja dozvole nadzornog tijela. Društvo za zastupanje u osiguranju može se osnovati prema Zakonu o trgovačkim društvima kao dioničko društvo, odnosno društvo s ograničenom odgovornošću. Izraz »zastupanje u osiguranju« odnosno izvedenicu tog izraza u tvrtki ili skraćenoj tvrtki može upisati u sudski registar i koristiti u pravnom prometu samo društvo koje je dobilo dozvolu iz članka 252. Zakona o osiguranju. Poslove pripreme i sklapanja ugovora o osiguranju u stanicama za tehnički pregled vozila može obavljati samo društvo za zastupanje u osiguranju i obrt za zastupanje u osiguranju koji imaju dozvolu nadzornog tijela za obavljanje poslova zastupanja u osiguranju u stanici za tehnički pregled vozila.",
   "version": "0.0.1",
   "contributors": [
     {
       "title": "HANFA",
       "path": "http://www.hanfa.hr/",
       "role": "publisher"
-    },
-    {
-      "title": "Sonja Radočaj",
-      "role": "contributor"
     },
     {
       "title": "Miroslav Schlossberg",
