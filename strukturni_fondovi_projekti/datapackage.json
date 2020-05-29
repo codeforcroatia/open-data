@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "raw-resource-2015",
-      "path": "KartaProjekataZaWeb_6-8-2015.xlsx",
+      "path": "KartaProjekataZaWeb_6-8-2015.xls",
       "profile": "tabular-data-resource",
       "title": "Europski strukturni i investicijski fondovi - popis projekata s karte (raw, 2015)",
       "created": "2015-08-10T00:00:00.00Z",
@@ -81,7 +81,7 @@
   },
     {
       "name": "raw-resource-2017",
-      "path": "KartaProjekataZaWeb1122017.csv",
+      "path": "KartaProjekataZaWeb1122017.xls",
       "title": "Europski strukturni i investicijski fondovi - popis projekata s karte (raw, 2017)",
       "created": "2017-02-11T00:00:00.00Z",
       "format": "xls",
