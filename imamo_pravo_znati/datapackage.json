@@ -1,0 +1,405 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource-2015",
+      "path": "IPZ_statistics_2015.csv",
+      "profile": "tabular-data-resource",
+      "title": "Imamo pravo znati statistika (2015 year)",
+      "created": "2015-12-31T00:00:00.00Z",
+      "format": "csv",
+      "sources": [
+        {
+          "title": "Imamo pravo znati - statistika",
+          "path": "http://stats.imamopravoznati.org"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Tijelo",
+            "description": "Authority name"
+          },
+          {
+            "name": "field2",
+            "type": "string",
+            "format": "default",
+            "title": "1-5",
+            "description": "1-5 days until answer"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "title": "6-10",
+            "description": "6-10 days until answer"
+          },
+          {
+            "name": "field4",
+            "type": "string",
+            "format": "default",
+            "title": "11-15",
+            "description": "11-15 days until answer"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "16-20",
+            "description": "16-20 days until answer"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "21-40",
+            "description": "21-40 days until answer"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "41-60",
+            "description": "41-60 days until answer"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "61+",
+            "description": "61+ days until answer"
+          },
+          {
+            "name": "field9",
+            "type": "string",
+            "format": "default",
+            "title": "Median",
+            "description": "Median number of days until answer"
+          },
+          {
+            "name": "field10",
+            "type": "string",
+            "format": "default",
+            "title": "Broj neodgovorenih",
+            "description": "Number of requests without answer"
+          },
+          {
+            "name": "field11",
+            "type": "string",
+            "format": "default",
+            "title": "Najstariji neodgovoreni",
+            "description": "Oldest unanswered request"
+          }
+      ]
+    }
+  },
+  {
+    "name": "raw-resource-2016",
+    "path": "IPZ_statistics_2016.csv",
+    "profile": "tabular-data-resource",
+    "title": "Imamo pravo znati statistika (2016 year)",
+    "created": "2016-12-31T00:00:00.00Z",
+    "format": "csv",
+    "sources": [
+      {
+        "title": "Imamo pravo znati - statistika",
+        "path": "http://stats.imamopravoznati.org"
+      }
+    ],
+    "schema": {
+      "fields": [
+        {
+          "name": "field1",
+          "type": "integer",
+          "format": "default",
+          "title": "Tijelo",
+          "description": "Authority name"
+        },
+        {
+          "name": "field2",
+          "type": "string",
+          "format": "default",
+          "title": "1-5",
+          "description": "1-5 days until answer"
+        },
+        {
+          "name": "field3",
+          "type": "string",
+          "format": "default",
+          "title": "6-10",
+          "description": "6-10 days until answer"
+        },
+        {
+          "name": "field4",
+          "type": "string",
+          "format": "default",
+          "title": "11-15",
+          "description": "11-15 days until answer"
+        },
+        {
+          "name": "field5",
+          "type": "string",
+          "format": "default",
+          "title": "16-20",
+          "description": "16-20 days until answer"
+        },
+        {
+          "name": "field6",
+          "type": "string",
+          "format": "default",
+          "title": "21-40",
+          "description": "21-40 days until answer"
+        },
+        {
+          "name": "field7",
+          "type": "string",
+          "format": "default",
+          "title": "41-60",
+          "description": "41-60 days until answer"
+        },
+        {
+          "name": "field8",
+          "type": "string",
+          "format": "default",
+          "title": "61+",
+          "description": "61+ days until answer"
+        },
+        {
+          "name": "field9",
+          "type": "string",
+          "format": "default",
+          "title": "Median",
+          "description": "Median number of days until answer"
+        },
+        {
+          "name": "field10",
+          "type": "string",
+          "format": "default",
+          "title": "Broj neodgovorenih",
+          "description": "Number of requests without answer"
+        },
+        {
+          "name": "field11",
+          "type": "string",
+          "format": "default",
+          "title": "Najstariji neodgovoreni",
+          "description": "Oldest unanswered request"
+        }
+    ]
+  }
+  },
+  {
+    "name": "raw-resource-2017",
+    "path": "IPZ_statistics_2017.csv",
+    "profile": "tabular-data-resource",
+    "title": "Imamo pravo znati statistika (2017 year)",
+    "created": "2017-12-31T00:00:00.00Z",
+    "format": "csv",
+    "sources": [
+      {
+        "title": "Imamo pravo znati - statistika",
+        "path": "http://stats.imamopravoznati.org"
+      }
+    ],
+    "schema": {
+      "fields": [
+        {
+          "name": "field1",
+          "type": "integer",
+          "format": "default",
+          "title": "Tijelo",
+          "description": "Authority name"
+        },
+        {
+          "name": "field2",
+          "type": "string",
+          "format": "default",
+          "title": "1-5",
+          "description": "1-5 days until answer"
+        },
+        {
+          "name": "field3",
+          "type": "string",
+          "format": "default",
+          "title": "6-10",
+          "description": "6-10 days until answer"
+        },
+        {
+          "name": "field4",
+          "type": "string",
+          "format": "default",
+          "title": "11-15",
+          "description": "11-15 days until answer"
+        },
+        {
+          "name": "field5",
+          "type": "string",
+          "format": "default",
+          "title": "16-20",
+          "description": "16-20 days until answer"
+        },
+        {
+          "name": "field6",
+          "type": "string",
+          "format": "default",
+          "title": "21-40",
+          "description": "21-40 days until answer"
+        },
+        {
+          "name": "field7",
+          "type": "string",
+          "format": "default",
+          "title": "41-60",
+          "description": "41-60 days until answer"
+        },
+        {
+          "name": "field8",
+          "type": "string",
+          "format": "default",
+          "title": "61+",
+          "description": "61+ days until answer"
+        },
+        {
+          "name": "field9",
+          "type": "string",
+          "format": "default",
+          "title": "Median",
+          "description": "Median number of days until answer"
+        },
+        {
+          "name": "field10",
+          "type": "string",
+          "format": "default",
+          "title": "Broj neodgovorenih",
+          "description": "Number of requests without answer"
+        },
+        {
+          "name": "field11",
+          "type": "string",
+          "format": "default",
+          "title": "Najstariji neodgovoreni",
+          "description": "Oldest unanswered request"
+        }
+    ]
+  }
+},
+{
+  "name": "raw-resource-2018",
+  "path": "IPZ_statistics_2018.csv",
+  "profile": "tabular-data-resource",
+  "title": "Imamo pravo znati statistika (2018 year)",
+  "created": "2018-12-31T00:00:00.00Z",
+  "format": "csv",
+  "sources": [
+    {
+      "title": "Imamo pravo znati - statistika",
+      "path": "http://stats.imamopravoznati.org"
+    }
+  ],
+  "schema": {
+    "fields": [
+      {
+        "name": "field1",
+        "type": "integer",
+        "format": "default",
+        "title": "Tijelo",
+        "description": "Authority name"
+      },
+      {
+        "name": "field2",
+        "type": "string",
+        "format": "default",
+        "title": "1-5",
+        "description": "1-5 days until answer"
+      },
+      {
+        "name": "field3",
+        "type": "string",
+        "format": "default",
+        "title": "6-10",
+        "description": "6-10 days until answer"
+      },
+      {
+        "name": "field4",
+        "type": "string",
+        "format": "default",
+        "title": "11-15",
+        "description": "11-15 days until answer"
+      },
+      {
+        "name": "field5",
+        "type": "string",
+        "format": "default",
+        "title": "16-20",
+        "description": "16-20 days until answer"
+      },
+      {
+        "name": "field6",
+        "type": "string",
+        "format": "default",
+        "title": "21-40",
+        "description": "21-40 days until answer"
+      },
+      {
+        "name": "field7",
+        "type": "string",
+        "format": "default",
+        "title": "41-60",
+        "description": "41-60 days until answer"
+      },
+      {
+        "name": "field8",
+        "type": "string",
+        "format": "default",
+        "title": "61+",
+        "description": "61+ days until answer"
+      },
+      {
+        "name": "field9",
+        "type": "string",
+        "format": "default",
+        "title": "Median",
+        "description": "Median number of days until answer"
+      },
+      {
+        "name": "field10",
+        "type": "string",
+        "format": "default",
+        "title": "Broj neodgovorenih",
+        "description": "Number of requests without answer"
+      },
+      {
+        "name": "field11",
+        "type": "string",
+        "format": "default",
+        "title": "Najstariji neodgovoreni",
+        "description": "Oldest unanswered request"
+      }
+  ]
+}
+}
+  ],
+  "name": "imamo-pravo-znati",
+  "title": "Imamo pravo znati statistika",
+  "description": "Imamo pravo znati je portal koji olakšava proces pristupa informacijama. Resoursi priloženi ovdje daju uvid u godišnju statistiku slanja zahtjeva za pravo na pristup informacijama od hrvatskih tijela javne vlasti.",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "Code for Croatia",
+      "path": "http://codeforcroatia.org",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ]
+}
