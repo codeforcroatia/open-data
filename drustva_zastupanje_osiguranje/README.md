@@ -6,11 +6,11 @@ notes: Društvo za zastupanje u osiguranju je pravna osoba sa sjedištem u Repub
 resources:
   - name: 'Registar društva za zastupanje u osiguranju (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Drustva%20za%20zastupanje%20u%20osiguranju.xlsx
+      https://github.com/codeforcroatia/open-data/blob/master/drustva_zastupanje_osiguranje/Drustva%20za%20zastupanje%20u%20osiguranju.xlsx
     format: xls
   - name: 'Registar društva za zastupanje u osiguranju (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Drustva%20za%20zastupanje%20u%20osiguranju.csv
+      https://github.com/codeforcroatia/open-data/blob/master/drustva_zastupanje_osiguranje/Drustva%20za%20zastupanje%20u%20osiguranju.csv
     format: csv
   - name: Društva za zastupanje u osiguranju (live)
     url: >-

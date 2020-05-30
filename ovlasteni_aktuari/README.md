@@ -6,11 +6,11 @@ notes: Aktuar je stručnjak koji se bavi problemima financijske neizvjesnosti i 
 resources:
   - name: 'Registar ovlaštenih aktuara (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Ovlasteni%20aktuari.xlsx
+      https://github.com/codeforcroatia/open-data/blob/master/ovlasteni_aktuari/Ovlasteni%20aktuari.xlsx
     format: xls
   - name: 'Registar ovlaštenih aktuara (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Ovlasteni%20aktuari.csv
+      https://github.com/codeforcroatia/open-data/blob/master/ovlasteni_aktuari/Ovlasteni%20aktuari.csv
     format: csv
   - name: Ovlašteni aktuari (live)
     url: >-

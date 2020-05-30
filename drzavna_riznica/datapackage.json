@@ -1,0 +1,174 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource-2019",
+      "path": "Dobavljaci 20190703.csv",
+      "profile": "tabular-data-resource",
+      "title": "Podaci o plaćanjima iz Državnog proračuna po dobavljačima (2018-2019)",
+      "created": "2019-07-03T00:00:00.00Z",
+      "format": "csv",
+      "sources": [
+        {
+          "title": "MFIN - Državna riznica",
+          "path": "https://mfin.gov.hr/istaknute-teme/drzavna-riznica/103"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Fiskalna godina",
+            "description": "fiscal year"
+          },
+          {
+            "name": "field2",
+            "type": "integer",
+            "format": "default",
+            "title": "Dobavljač",
+            "description": "supplier (id)"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default",
+            "description": "supplier (name)"
+          },
+          {
+            "name": "field4",
+            "type": "integer",
+            "format": "default",
+            "title": "Porezni broj 2",
+            "description": "VAT number"
+          },
+          {
+            "name": "field5",
+            "type": "integer",
+            "format": "default",
+            "title": "Izvor financiranja (I2) (t)",
+            "description": "source of income (code)"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "description": "source of income (description)"
+          },
+          {
+            "name": "field7",
+            "type": "integer",
+            "format": "default",
+            "title": "Razdjel (O1) (t)",
+            "description": "section (code)"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "description": "section (name)"
+          },
+          {
+            "name": "field9",
+            "type": "integer",
+            "format": "default",
+            "title": "Glava (O2) (t)",
+            "description": "chapter (code)"
+          },
+          {
+            "name": "field10",
+            "type": "string",
+            "format": "default",
+            "description": "chapter (name)"
+          },
+          {
+            "name": "field11",
+            "type": "integer",
+            "format": "default",
+            "title": "Glavni program (P1)",
+            "description": "main program (code)"
+          },
+          {
+            "name": "field12",
+            "type": "string",
+            "format": "default",
+            "description": "main program (name)"
+          },
+          {
+            "name": "field13",
+            "type": "integer",
+            "format": "default",
+            "title": "Program (P2) (t)",
+            "description": "program (code)"
+          },
+          {
+            "name": "field14",
+            "type": "string",
+            "format": "default",
+            "description": "program (name)"
+          },
+          {
+            "name": "field15",
+            "type": "integer",
+            "format": "default",
+            "title": "Podprogram (P3) (t)",
+            "description": "sub program (code)"
+          },
+          {
+            "name": "field16",
+            "type": "string",
+            "format": "default",
+            "description": "sub program (name)"
+          },
+          {
+            "name": "field17",
+            "type": "integer",
+            "format": "default",
+            "title": "Stavka izdataka/prihoda (E4) (t)",
+            "description": "expenditure/revenue item (code)"
+          },
+          {
+            "name": "field18",
+            "type": "string",
+            "format": "default",
+            "description": "expenditure/revenue item (name)"
+          },
+          {
+            "name": "field19",
+            "type": "string",
+            "format": "default",
+            "title": "Iznos u valuti FM",
+            "description": "amount in currency"
+          }
+      ]
+    }
+  }
+],
+  "name": "drzavna-riznica",
+  "title": "Državna riznica",
+  "description": "Državna riznica sustav je upravljanja javnim novcem. Državna riznica obavlja poslove koji se odnose na: pripremu i izvršavanje proračuna, državno računovodstvo, upravljanje gotovinom i javnim dugom. Cilj državne riznice jest racionalizacija u upravljanju javnim novcem. Sve financijske transakcije proračunskih korisnika obavljaju se preko sustava državne riznice, odnosno preko jedinstvenog računa riznice, koji se nalazi u depozitu Hrvatske narodne banke.",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "Ministarstvo financija",
+      "path": "https://mfin.gov.hr",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}

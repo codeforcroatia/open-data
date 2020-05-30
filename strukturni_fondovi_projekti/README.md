@@ -6,11 +6,11 @@ notes: Na karti projekata prikazani su projekti koji se provode na lokalnoj i re
 resources:
   - name: 'Strukturni fondovi - karta projekata (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/KartaProjekataZaWeb_6-8-2015.xls
+      https://github.com/codeforcroatia/open-data/blob/master/strukturni_fondovi_projekti/KartaProjekataZaWeb_6-8-2015.xls
     format: xls
   - name: 'Strukturni fondovi - karta projekata (raw, 2017.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/KartaProjekataZaWeb1122017.xls
+      https://github.com/codeforcroatia/open-data/blob/master/strukturni_fondovi_projekti/KartaProjekataZaWeb1122017.xls
     format: csv
 license: 'http://data.gov.hr/otvorena-dozvola'
 category:

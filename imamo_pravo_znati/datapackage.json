@@ -18,70 +18,70 @@
         "fields": [
           {
             "name": "field1",
-            "type": "integer",
+            "type": "string",
             "format": "default",
             "title": "Tijelo",
             "description": "Authority name"
           },
           {
             "name": "field2",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "1-5",
             "description": "1-5 days until answer"
           },
           {
             "name": "field3",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "6-10",
             "description": "6-10 days until answer"
           },
           {
             "name": "field4",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "11-15",
             "description": "11-15 days until answer"
           },
           {
             "name": "field5",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "16-20",
             "description": "16-20 days until answer"
           },
           {
             "name": "field6",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "21-40",
             "description": "21-40 days until answer"
           },
           {
             "name": "field7",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "41-60",
             "description": "41-60 days until answer"
           },
           {
             "name": "field8",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "61+",
             "description": "61+ days until answer"
           },
           {
             "name": "field9",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "Median",
             "description": "Median number of days until answer"
           },
           {
             "name": "field10",
-            "type": "string",
+            "type": "integer",
             "format": "default",
             "title": "Broj neodgovorenih",
             "description": "Number of requests without answer"
@@ -113,70 +113,70 @@
       "fields": [
         {
           "name": "field1",
-          "type": "integer",
+          "type": "string",
           "format": "default",
           "title": "Tijelo",
           "description": "Authority name"
         },
         {
           "name": "field2",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "1-5",
           "description": "1-5 days until answer"
         },
         {
           "name": "field3",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "6-10",
           "description": "6-10 days until answer"
         },
         {
           "name": "field4",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "11-15",
           "description": "11-15 days until answer"
         },
         {
           "name": "field5",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "16-20",
           "description": "16-20 days until answer"
         },
         {
           "name": "field6",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "21-40",
           "description": "21-40 days until answer"
         },
         {
           "name": "field7",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "41-60",
           "description": "41-60 days until answer"
         },
         {
           "name": "field8",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "61+",
           "description": "61+ days until answer"
         },
         {
           "name": "field9",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "Median",
           "description": "Median number of days until answer"
         },
         {
           "name": "field10",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "Broj neodgovorenih",
           "description": "Number of requests without answer"
@@ -208,70 +208,70 @@
       "fields": [
         {
           "name": "field1",
-          "type": "integer",
+          "type": "string",
           "format": "default",
           "title": "Tijelo",
           "description": "Authority name"
         },
         {
           "name": "field2",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "1-5",
           "description": "1-5 days until answer"
         },
         {
           "name": "field3",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "6-10",
           "description": "6-10 days until answer"
         },
         {
           "name": "field4",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "11-15",
           "description": "11-15 days until answer"
         },
         {
           "name": "field5",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "16-20",
           "description": "16-20 days until answer"
         },
         {
           "name": "field6",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "21-40",
           "description": "21-40 days until answer"
         },
         {
           "name": "field7",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "41-60",
           "description": "41-60 days until answer"
         },
         {
           "name": "field8",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "61+",
           "description": "61+ days until answer"
         },
         {
           "name": "field9",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "Median",
           "description": "Median number of days until answer"
         },
         {
           "name": "field10",
-          "type": "string",
+          "type": "integer",
           "format": "default",
           "title": "Broj neodgovorenih",
           "description": "Number of requests without answer"
@@ -303,70 +303,70 @@
     "fields": [
       {
         "name": "field1",
-        "type": "integer",
+        "type": "string",
         "format": "default",
         "title": "Tijelo",
         "description": "Authority name"
       },
       {
         "name": "field2",
-        "type": "string",
+        "type": "integer",
         "format": "default",
         "title": "1-5",
         "description": "1-5 days until answer"
       },
       {
         "name": "field3",
-        "type": "string",
+        "type": "integer",
         "format": "default",
         "title": "6-10",
         "description": "6-10 days until answer"
       },
       {
         "name": "field4",
-        "type": "string",
+        "type": "integer",
         "format": "default",
         "title": "11-15",
         "description": "11-15 days until answer"
       },
       {
         "name": "field5",
-        "type": "string",
+        "type": "integer",
         "format": "default",
         "title": "16-20",
         "description": "16-20 days until answer"
       },
       {
         "name": "field6",
-        "type": "string",
+        "type": "integer",
         "format": "default",
         "title": "21-40",
         "description": "21-40 days until answer"
       },
       {
         "name": "field7",
-        "type": "string",
+        "type": "integer",
         "format": "default",
         "title": "41-60",
         "description": "41-60 days until answer"
       },
       {
         "name": "field8",
-        "type": "string",
+        "type": "integer",
         "format": "default",
         "title": "61+",
         "description": "61+ days until answer"
       },
       {
         "name": "field9",
-        "type": "string",
+        "type": "integer",
         "format": "default",
         "title": "Median",
         "description": "Median number of days until answer"
       },
       {
         "name": "field10",
-        "type": "string",
+        "type": "integer",
         "format": "default",
         "title": "Broj neodgovorenih",
         "description": "Number of requests without answer"

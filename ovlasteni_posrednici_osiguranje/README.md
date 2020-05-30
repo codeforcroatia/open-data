@@ -6,11 +6,11 @@ notes: Posrednik u osiguranju je fizička ili pravna osoba, osim društva za osi
 resources:
   - name: 'Registar posrednika u osiguranju (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Ovlasteni%20posrednici%20u%20osiguranju.xlsx
+      https://github.com/codeforcroatia/open-data/blob/master/ovlasteni_posrednici_osiguranje/Ovlasteni%20posrednici%20u%20osiguranju.xlsx
     format: xls
   - name: 'Registar posrednika u osiguranju (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Ovlasteni%20posrednici%20u%20osiguranju.csv
+      https://github.com/codeforcroatia/open-data/blob/master/ovlasteni_posrednici_osiguranje/Ovlasteni%20posrednici%20u%20osiguranju.csv
     format: csv
 license: 'http://data.gov.hr/otvorena-dozvola'
 category:

@@ -6,11 +6,11 @@ notes: Kreditne institucije su pravne osobe čija je djelatnost primanje depozit
 resources:
   - name: 'Registar banaka koje imaju dozvolu za zastupanje u osiguranju (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Registar%20banaka%20koje%20imaju%20dozvolu%20za%20zastupanje%20u%20osiguranju.xlsx
+      https://github.com/codeforcroatia/open-data/blob/master/kreditne_institucije/Registar%20banaka%20koje%20imaju%20dozvolu%20za%20zastupanje%20u%20osiguranju.xlsx
     format: xls
   - name: 'Registar banaka koje imaju dozvolu za zastupanje u osiguranju (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Registar%20banaka%20koje%20imaju%20dozvolu%20za%20zastupanje%20u%20osiguranju.csv
+      https://github.com/codeforcroatia/open-data/blob/master/kreditne_institucije/Registar%20banaka%20koje%20imaju%20dozvolu%20za%20zastupanje%20u%20osiguranju.csv
     format: csv
   - name: Kreditne institucije (live)
     url: >-

@@ -6,11 +6,11 @@ notes:
 resources:
   - name: 'Registar obrta za zastupanje u osiguranju (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Registar%20obrta%20za%20zastupanje%20u%20osiguranju.xlsx
+      https://github.com/codeforcroatia/open-data/blob/master/obrti_zastupanje_osiguranje/Registar%20obrta%20za%20zastupanje%20u%20osiguranju.xlsx
     format: xls
   - name: 'Registar obrta za zastupanje u osiguranju (raw, 2015.)'
     url: >-
-      https://github.com/codeforcroatia/open-data/blob/master/drustva_osiguranje_reosiguranje/Registar%20obrta%20za%20zastupanje%20u%20osiguranju.csv
+      https://github.com/codeforcroatia/open-data/blob/master/obrti_zastupanje_osiguranje/Registar%20obrta%20za%20zastupanje%20u%20osiguranju.csv
     format: csv
   - name: Obrtnici zastupnici u osiguranju (live)
     url: >-
