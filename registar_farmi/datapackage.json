@@ -1,0 +1,226 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource-raw-2018",
+      "path": "Registar farmi na dan 27. prosinca 2018.xlsx",
+      "profile": "tabular-data-resource",
+      "title": "Registar farmi from 2018 (raw)",
+      "created": "2018-12-27T00:00:00.00Z",
+      "format": "xlsx",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar Farmi",
+          "path": "http://imamopravoznati.org/request/registar_farmi_2#incoming-8147"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "datetime",
+            "format": "default",
+            "title": "datum_od"
+          },
+          {
+            "name": "field2",
+            "type": "integer",
+            "format": "default",
+            "title": "uk"
+          },
+          {
+            "name": "field3",
+            "type": "integer",
+            "format": "default",
+            "title": "avg"
+          },
+          {
+            "name": "field4",
+            "type": "integer",
+            "format": "default",
+            "title": "max"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv_proizvodnje"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Vrsta_zivotinje"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "IKG"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "JIBG"
+          },
+          {
+            "name": "field9",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv_farme"
+          },
+          {
+            "name": "field10",
+            "type": "integer",
+            "format": "default",
+            "title": "f_pbr"
+          },
+          {
+            "name": "field11",
+            "type": "string",
+            "format": "default",
+            "title": "f_naselje"
+          },
+          {
+            "name": "field12",
+            "type": "string",
+            "format": "default",
+            "title": "f_zupanija"
+          },
+          {
+            "name": "field13",
+            "type": "string",
+            "format": "default",
+            "title": "f_posta"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-csv-2018",
+      "path": "Registar farmi na dan 27. prosinca 2018.csv",
+      "profile": "tabular-data-resource",
+      "title": "Registar farmi from 2018 (csv)",
+      "created": "2018-12-27T00:00:00.00Z",
+      "format": "csv",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Registar Farmi",
+          "path": "http://imamopravoznati.org/request/registar_farmi_2#incoming-8147"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "datetime",
+            "format": "default",
+            "title": "datum_od"
+          },
+          {
+            "name": "field2",
+            "type": "integer",
+            "format": "default",
+            "title": "uk"
+          },
+          {
+            "name": "field3",
+            "type": "integer",
+            "format": "default",
+            "title": "avg"
+          },
+          {
+            "name": "field4",
+            "type": "integer",
+            "format": "default",
+            "title": "max"
+          },
+          {
+            "name": "field5",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv_proizvodnje"
+          },
+          {
+            "name": "field6",
+            "type": "string",
+            "format": "default",
+            "title": "Vrsta_zivotinje"
+          },
+          {
+            "name": "field7",
+            "type": "string",
+            "format": "default",
+            "title": "IKG"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "JIBG"
+          },
+          {
+            "name": "field9",
+            "type": "string",
+            "format": "default",
+            "title": "Naziv_farme"
+          },
+          {
+            "name": "field10",
+            "type": "integer",
+            "format": "default",
+            "title": "f_pbr"
+          },
+          {
+            "name": "field11",
+            "type": "string",
+            "format": "default",
+            "title": "f_naselje"
+          },
+          {
+            "name": "field12",
+            "type": "string",
+            "format": "default",
+            "title": "f_zupanija"
+          },
+          {
+            "name": "field13",
+            "type": "string",
+            "format": "default",
+            "title": "f_posta"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "registar-farmi",
+  "title": "Registar farmi",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "Ministarstvo poljoprivrede",
+      "path": "https://poljoprivreda.gov.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Anita Petrović",
+      "role": "contributor"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}
