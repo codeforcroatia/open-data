@@ -50,6 +50,92 @@
           }
         ]
       }
+    },
+    {
+      "name": "json-03-2020",
+      "path": "https://mjera-orm.hzz.hr/korisnici-potpore/ozujak-2020/json/",
+      "profile": "tabular-data-resource",
+      "format": "json",
+      "created": "2020-04-22T00:00:00.00Z",
+      "title": "Popis korisnika potpore za poduzetnike u djelatnostima pogođenima koronavirusom za mjesec ožujak 2020.",
+      "description": "Popis je objavljen prema abecednom redu naziva poslodavca/korisnika potpore i sadrži OIB poslodavca, broj radnika za koje se potpora koristi i ukupnu svotu isplaćene potpore. Za informacije vezanu uz popis, korisnici se mogu obratiti nadležnom uredu Hrvatskog zavoda za zapošljavanje press@hzz.hr. Pritužbe, pohvale i prijedloge uputite na prituzbe-pohvale-prijedlozi@hzz.hr. Razdoblje i trajanje potpore je od 1. ožujka 2020. do najduže tri mjeseca, te će se za svaki mjesec isplate objaviti popis korisnika u tom mjesecu.",
+      "sources": [
+        {
+          "title": "Popis korisnika potpore za poduzetnike u djelatnostima pogođenima koronavirusom za mjesec ožujak 2020. (22. travnja 2020.)",
+          "path": "https://mjera-orm.hzz.hr/korisnici-potpore/ozujak-2020/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "EmployerName",
+            "type": "string",
+            "format": "default",
+            "title": "Poslodavac"
+          },
+          {
+            "name": "Oib",
+            "type": "string",
+            "format": "default",
+            "title": "OIB poslodavca"
+          },
+          {
+            "name": "SupportedEmployeeNumber",
+            "type": "integer",
+            "format": "default",
+            "title": "Broj radnika za koje se koristi potpora"
+          },
+          {
+            "name": "SupportPaidAmount",
+            "type": "number",
+            "format": "default",
+            "title": "Iznos isplacene potpore (HRK)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "api",
+      "path": "https://mjera-orm.hzz.hr/api/GetCompanyPaymentData",
+      "profile": "tabular-data-resource",
+      "format": "api",
+      "created": "2020-04-22T00:00:00.00Z",
+      "title": "API endpoint - programski pristup za podatke o korisnicima potpore za očuvanje radnih mjesta",
+      "description": "Dostupni su podaci korisnika potpore za očuvanje radnih mjesta u otvorenom formatu po JSON specifikaciji te programski API endpoint za dohvat podataka po različitim kriterijima za potrebe razvoja aplikacija.",
+      "sources": [
+        {
+          "title": "Otvoreni podaci i programski pristup API za podatke o korisnicima potpore za očuvanje radnih mjesta ",
+          "path": "https://mjera-orm.hzz.hr/korisnici-potpore/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "EmployerName",
+            "type": "string",
+            "format": "default",
+            "title": "Poslodavac"
+          },
+          {
+            "name": "Oib",
+            "type": "string",
+            "format": "default",
+            "title": "OIB poslodavca"
+          },
+          {
+            "name": "SupportedEmployeeNumber",
+            "type": "integer",
+            "format": "default",
+            "title": "Broj radnika za koje se koristi potpora"
+          },
+          {
+            "name": "SupportPaidAmount",
+            "type": "number",
+            "format": "default",
+            "title": "Iznos isplacene potpore (HRK)"
+          }
+        ]
+      }
     }
   ],
   "name": "potpora-ocuvanje-radnih-mjesta-covid-19",
