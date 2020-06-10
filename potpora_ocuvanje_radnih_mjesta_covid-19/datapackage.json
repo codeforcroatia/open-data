@@ -1,0 +1,82 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource-03-2020",
+      "path": "potpore_ozujak_2020.csv",
+      "profile": "tabular-data-resource",
+      "format": "xlsx",
+      "created": "2020-04-22T00:00:00.00Z",
+      "title": "Popis korisnika potpore za poduzetnike u djelatnostima pogođenima koronavirusom za mjesec ožujak 2020.",
+      "description": "Popis je objavljen prema abecednom redu naziva poslodavca/korisnika potpore i sadrži OIB poslodavca, broj radnika za koje se potpora koristi i ukupnu svotu isplaćene potpore. Za informacije vezanu uz popis, korisnici se mogu obratiti nadležnom uredu Hrvatskog zavoda za zapošljavanje press@hzz.hr. Pritužbe, pohvale i prijedloge uputite na prituzbe-pohvale-prijedlozi@hzz.hr. Razdoblje i trajanje potpore je od 1. ožujka 2020. do najduže tri mjeseca, te će se za svaki mjesec isplate objaviti popis korisnika u tom mjesecu.",
+      "sources": [
+        {
+          "title": "Popis korisnika potpore za poduzetnike u djelatnostima pogođenima koronavirusom za mjesec ožujak 2020. (22. travnja 2020.)",
+          "path": "https://mjera-orm.hzz.hr/korisnici-potpore/ozujak-2020/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "ID",
+            "type": "integer",
+            "format": "default",
+            "title": "ID",
+            "description": "Redni broj"
+          },
+          {
+            "name": "Naziv poslodavca/korisnika",
+            "type": "string",
+            "format": "default",
+            "title": "Poslodavac"
+          },
+          {
+            "name": "OIB",
+            "type": "string",
+            "format": "default",
+            "title": "OIB poslodavca"
+          },
+          {
+            "name": "Broj radnika za koje se koristi potpora",
+            "type": "integer",
+            "format": "default",
+            "title": "Broj radnika"
+          },
+          {
+            "name": "Isplacena potpora",
+            "type": "number",
+            "format": "default",
+            "title": "Iznos potpore (HRK)"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "potpora-ocuvanje-radnih-mjesta-covid-19",
+  "title": "Popis korisnika potpore za poduzetnike u djelatnostima pogođenima koronavirusom",
+  "description": "Upravno vijeće Hrvatskog zavoda za zapošljavanje je na sjednici 20. ožujka 2020. usvojilo novu mjeru aktivne politike zapošljavanja s ciljem zadržavanja radnih mjesta u najugroženijim sektorima - Potpora za očuvanje radnih mjesta u djelatnostima pogođenima koronavirusom (COVID-19), kao je dio paketa mjera Vlade Republike Hrvatske pomoći gospodarstvu uslijed posljedica uzrokovanih pandemijom koronavirusa (COVID-19). Mjera potpore za očuvanje radnih mjesta odnosi se na poslodavce pogođene učincima koronavirusa COVID-19 u djelatnostima pružanja smještaja te pripreme i usluživanja hrane i pića, prijevoza i skladištenja, na radno - intenzivne djelatnosti unutar prerađivačke industrije - tekstil, odjeća, obuća, koža, drvo i namještaja te poslodavce koji ne mogu obavljati djelatnost sukladno Odlukama Stožera civilne zaštite (nacionalnog, županijskog, jedinica lokalne samouprave) i na druge poslodavce koji mogu dokazati utjecaj posebnih okolnosti.",
+  "homepage": "https://mjera-orm.hzz.hr/korisnici-potpore/",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "HZZ",
+      "path": "https://www.hzz.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "Filip Rodik",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "https://rdd.gov.hr/otvoreni-podaci/94"
+    }
+  ]
+}
