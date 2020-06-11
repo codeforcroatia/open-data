@@ -8,7 +8,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "KORISNICI STANOVA BEZ VALJANE PRAVNE OSNOVE - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -52,7 +51,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "NAJMOPRIMCI - OSNOV DODJELE CLANAK 7. ODLUKE O NAJMU STANOVA - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -91,7 +89,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "NAJMOPRIMCI JAVNO NAJAMNIH STANOVA - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -130,7 +127,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "NAJMOPRIMCI TEMELJEM CLANKA 7.A ODLUKE O NAJMU STANOVA - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -169,7 +165,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "POSLOVNI PROSTOR (1) - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -218,7 +213,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "POSLOVNI PROSTOR (2) - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -267,7 +261,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "ZEMLJISTE - ZAKUPNIK - UGOVORI TEMELJEM ZAKLJUCKA GRADONACELNIKA - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -311,7 +304,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "NAJMOPRIMCI - OSNOV DODJELE CLANAK 6. ODLUKE O NAJMU STANOVA - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -350,7 +342,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "NAJMOPRIMCI STANOVA ZA SLUŽBENE POTREBE - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -389,7 +380,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "PRIVREMENA KORIŠTENJA - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -428,7 +418,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "NAJMOPRIMCI - OSNOV DODJELE LISTA REDA PRVENSTVA - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -467,7 +456,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "NAJMOPRIMCI - OSNOV DODJELE CLANAK 5. ODLUKE O NAJMU STANOVA - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
@@ -506,7 +494,6 @@
       "format": "csv",
       "created": "2019-10-30T00:00:00.00Z",
       "title": "ZASTICENI NAJMOPRIMCI TEMELJEM CLANKA 30. I 31. ZAKONA O NAJMU STANOVA - 2019. godina",
-      ],
       "schema": {
         "fields": [
           {
