@@ -1,0 +1,570 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource-1-10-2019",
+      "path": "OCT-2019/1c.-KORISNICI-STANOVA-BEZ-VALJANE-PRAVNE-OSNOVE-(Crawl-Run)---2019-10-08T150404Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "KORISNICI STANOVA BEZ VALJANE PRAVNE OSNOVE - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Najmoprimac-Korisnik_link",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-2-10-2019",
+      "path": "OCT-2019/1c.-NAJMOPRIMCI---OSNOV-DODJELE-CLANAK-7.-ODLUKE-O-NAJMU-STANOVA-(Crawl-Run)---2019-10-08T142421Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "NAJMOPRIMCI - OSNOV DODJELE CLANAK 7. ODLUKE O NAJMU STANOVA - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-3-10-2019",
+      "path": "OCT-2019/1c.-NAJMOPRIMCI-JAVNO-NAJAMNIH-STANOVA-(Crawl-Run)---2019-10-08T184336Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "NAJMOPRIMCI JAVNO NAJAMNIH STANOVA - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-4-10-2019",
+      "path": "OCT-2019/1c.-NAJMOPRIMCI-TEMELJEM-CLANKA-7.-A-ODLUKE-O-NAJMU-STANOVA-(Crawl-Run)---2019-10-08T191640Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "NAJMOPRIMCI TEMELJEM CLANKA 7.A ODLUKE O NAJMU STANOVA - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-5-10-2019",
+      "path": "OCT-2019/1c.-POSLOVNI-PROSTOR---1st-Part-(Crawl-Run)---2019-10-08T200712Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "POSLOVNI PROSTOR (1) - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Ulica",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Vrsta",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Nacin koristenja",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Djelatnost",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-6-10-2019",
+      "path": "OCT-2019/1c.-POSLOVNI-PROSTOR---2nd-Part-(Crawl-Run)---2019-10-08T201617Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "POSLOVNI PROSTOR (2) - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Ulica",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Vrsta",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Nacin koristenja",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Djelatnost",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-7-10-2019",
+      "path": "OCT-2019/1c.-ZEMLJISTE---ZAKUPNIK---UGOVORI-TEMELJEM-ZAKLJUCKA-GRADONACELNIKA-(Crawl-Run)---2019-10-08T204035Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "ZEMLJISTE - ZAKUPNIK - UGOVORI TEMELJEM ZAKLJUCKA GRADONACELNIKA - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Zakupnik-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Katastarska opcina",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Katastarska cestica",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Namjena",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-8-10-2019",
+      "path": "OCT-2019/2.-NAJMOPRIMCI---OSNOV-DODJELE-CLANAK-6.-ODLUKE-O-NAJMU-STANOVA---detalji-(Crawl-Run)---2019-10-08T131001Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "NAJMOPRIMCI - OSNOV DODJELE CLANAK 6. ODLUKE O NAJMU STANOVA - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-9-10-2019",
+      "path": "OCT-2019/3.-NAJMOPRIMCI-STANOVA-ZA-SLUŽBENE-POTREBE---detalji-(Crawl-Run)---2019-10-08T131959Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "NAJMOPRIMCI STANOVA ZA SLUŽBENE POTREBE - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-10-10-2019",
+      "path": "OCT-2019/4.-PRIVREMENA-KORIŠTENJA---detalji-(Crawl-Run)---2019-10-08T132635Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "PRIVREMENA KORIŠTENJA - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-11-10-2019",
+      "path": "OCT-2019/5.-NAJMOPRIMCI---OSNOV-DODJELE-LISTA-REDA-PRVENSTVA---detalji-(Crawl-Run)---2019-10-08T134446Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "NAJMOPRIMCI - OSNOV DODJELE LISTA REDA PRVENSTVA - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-12-10-2019",
+      "path": "OCT-2019/NAJMOPRIMCI---OSNOV-DODJELE-CLANAK-5.-ODLUKE-O-NAJMU-STANOVA---detalji-(Crawl-Run)---2019-10-08T101407Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "NAJMOPRIMCI - OSNOV DODJELE CLANAK 5. ODLUKE O NAJMU STANOVA - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource-13-10-2019",
+      "path": "OCT-2019/ZASTICENI-NAJMOPRIMCI-TEMELJEM-CLANKA-30.-I-31.-ZAKONA-O-NAJMU-STANOVA---detalji-(Crawl-Run)---2019-10-08T083933Z.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "created": "2019-10-30T00:00:00.00Z",
+      "title": "ZASTICENI NAJMOPRIMCI TEMELJEM CLANKA 30. I 31. ZAKONA O NAJMU STANOVA - 2019. godina",
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "Scraped from source URL"
+          },
+          {
+            "name": "Najmoprimac-Korisnik",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Povrsina",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Gradska cetvrt",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "imovina-grad-zagreb",
+  "title": "Imovina Grada Zagreba",
+  "description": "Gradski ured za upravljanje imovinom Grada obavlja poslove koji se odnose na: upravljanje i raspolaganje nekretninama, pokretninama i pravima u vlasništvu Grada, vlasništvo i druga stvarna prava, otkup, stjecanje i prodaju zemljišta, stanova i poslovnih prostora i drugih nekretnina i pokretnina za potrebe uređenja građevinskog zemljišta, razvojne, socijalne i druge projekte Grada, davanje u najam, zakup i održavanje stanova, poslovnih prostora i neizgrađenog građevinskog zemljišta, uređivanje vlasničko - pravnih odnosa, evidenciju imovine te na druge poslove koji su mu stavljeni u nadležnost.",
+  "homepage": "http://www1.zagreb.hr/zagreb/gradskaimovina.nsf",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "Grad Zagreb",
+      "path": "http://www.zagreb.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "https://rdd.gov.hr/otvoreni-podaci/94"
+    }
+  ]
+}
