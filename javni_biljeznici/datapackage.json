@@ -1,0 +1,116 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource-05-2020",
+      "path": "Popis JB ureda s podacima s web stranice Komore.xlsx",
+      "profile": "tabular-data-resource",
+      "format": "xlsx",
+      "created": "2020-05-21T00:00:00.00Z",
+      "title": "Imenik javnobilježničkih ureda - 2020. godina",
+      "description": "Popis javnobilježničkih ureda u RH u 2020. godini s internetskih stranica Hrvatske javnobilježničke komore.",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Popis javnobilježničkih ureda u RH - 2020. godina",
+          "path": "http://imamopravoznati.org/request/popis_javnobiljeznickih_ureda_u_2#incoming-8869"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "RBr.",
+            "type": "integer",
+            "format": "default",
+            "description": "Redni broj"
+          },
+          {
+            "name": "Prezime",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Ime",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "JB/VD",
+            "type": "string",
+            "format": "default",
+            "description": "Vrsta javnog bilježnika"
+          },
+          {
+            "name": "Adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "PTT",
+            "type": "integer",
+            "format": "default",
+            "description": "Poštanski broj"
+          },
+          {
+            "name": "Mjesto",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "e-mail adresa",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Županija",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Telefon",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "FAX",
+            "type": "string",
+            "format": "default",
+            "description": "Telefaks"
+          },
+          {
+            "name": "Radno vrijeme",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Primanje stranaka",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "javni-biljeznici",
+  "title": "Imenik javnobilježničkih ureda",
+  "description": "Javno bilježnička služba se sastoji u službenom sastavljanju i izdavanju javnih isprava o pravnim poslovima, izjavama i činjenicama na kojima se utemeljuju prava u službenom ovjeravanju privatnih isprava, u primanju na čuvanje isprava, zatim novca i predmeta od vrijednosti radi njihove predaje drugim osobama ili nadležnim tijelima te u obavljanju, po nalogu suda ili drugih javnih tijela postupaka određenih Zakonom. Ustrojstvo i način rada javnog bilježnika kao javne službe uređeno je Zakonom o javnom bilježništvu. Javni bilježnici na području Republike Hrvatske obavezno se udružuju u Hrvatsku javnobilježničku komoru. Sjedište Komore je u Zagrebu. Komora se brine o čuvanju ugleda i časti javnih bilježnika te štiti njihova prava i interese, a odlučuje o njihovim pravima i obvezama i odgovornostima. Tijela Komore su Skupština, Upravni odbor i predsjednik Komore. Nadzor nad radom javnobilježničke službe obavljaju Ministarstvo pravosuđa i Komora.",
+  "homepage": "http://www.hjk.hr/uredijbhr",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "Hrvatska javnobilježnička komora",
+      "path": "http://www.hjk.hr/",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "https://rdd.gov.hr/otvoreni-podaci/94"
+    }
+  ]
+}
