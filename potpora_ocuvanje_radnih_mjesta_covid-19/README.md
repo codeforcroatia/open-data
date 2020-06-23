@@ -12,6 +12,10 @@ resources:
     url: >-
       https://mjera-orm.hzz.hr/korisnici-potpore/ozujak-2020/json/
     format: json
+  - name: 'Popis korisnika potpore za poduzetnike u djelatnostima pogođenima koronavirusom za mjesec travanj 2020.'
+    url: >-
+      https://mjera-orm.hzz.hr/korisnici-potpore/travanj-2020/json/
+    format: json
   - name: 'API endpoint - programski pristup za podatke o korisnicima potpore za očuvanje radnih mjesta'
     url: >-
       https://mjera-orm.hzz.hr/api/GetCompanyPaymentData
