@@ -14,6 +14,10 @@ resources:
     format: json
   - name: 'Popis korisnika potpore za poduzetnike u djelatnostima pogođenima koronavirusom za mjesec travanj 2020.'
     url: >-
+      https://github.com/codeforcroatia/open-data/blob/master/potpora_ocuvanje_radnih_mjesta_covid-19/potpore_travanj_2020.csv
+    format: csv
+  - name: 'Popis korisnika potpore za poduzetnike u djelatnostima pogođenima koronavirusom za mjesec travanj 2020.'
+    url: >-
       https://mjera-orm.hzz.hr/korisnici-potpore/travanj-2020/json/
     format: json
   - name: 'API endpoint - programski pristup za podatke o korisnicima potpore za očuvanje radnih mjesta'
