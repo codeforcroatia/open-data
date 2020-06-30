@@ -30,7 +30,7 @@ Each dataset with it's versions is gathered in a single directory under root of 
   - datapackage.json
   - README.md
 
-Each dataset directory will have single README.md and single datapackage.json to describe a datasets in this directory. README.md is metadata standard used to publish your dataset in [JKAN - Open Data Portal](https://data.codeforcroatia.org/), and datapackage.json is a Frictionless Data Specification used to automatically publish your dataset at [DataHub.io](https://datahub.io/).
+Each dataset directory will have single README.md and single datapackage.json to describe a datasets in this directory. README.md is metadata standard used to publish your dataset in [JKAN - Open Data Portal](https://data.codeforcroatia.org/), and datapackage.json is a Frictionless Data Specification.
 
 You can create and verify your datapackage.json at [create.frictionlessdata.io](https://create.frictionlessdata.io). For more info about Frictionless Data please visit frictionlessdata.io.
 
