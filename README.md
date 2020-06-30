@@ -19,6 +19,10 @@ For more info about the project as a whole, please visit [frictionlessdata.io](h
 
 Create and verify your datapackage.json at [create.frictionlessdata.io](https://create.frictionlessdata.io/).
 
+## How to contribute
+
+You want to upload open data to this repository? Excellent! Read [this guidelines](https://github.com/codeforcroatia/open-data/blob/master/.github/CONTRIBUTING.md) on how to do this.
+
 ## Other open data resources
 
 https://app.box.com/s/66w21zd6p1aquac6hk1b
