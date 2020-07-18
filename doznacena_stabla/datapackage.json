@@ -1,0 +1,169 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "raw-resource-2015",
+      "path": "ps2015_sumarije.xlsx",
+      "profile": "tabular-data-resource",
+      "title": "Broj doznačenih stabala po vrsti u hrvatskim šumama u 2015. godini (raw)",
+      "created": "2017-06-05T00:00:00.00Z",
+      "format": "xlsx",
+      "sources": [
+        {
+          "title": "Zahtjev za pristup informacijama: Izvršena sječa stabala i pošumljavanje u 2015. godini",
+          "path": "http://imamopravoznati.org/request/izvrsena_sjeca_stabala_i_posumlj#incoming-4662"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "godina",
+            "type": "integer",
+            "format": "default",
+            "title": "Godina"
+          },
+          {
+            "name": "upravaid",
+            "type": "integer",
+            "format": "default",
+            "title": "Uprava ID"
+          },
+          {
+            "name": "uprava",
+            "type": "string",
+            "format": "default",
+            "title": "Uprava"
+          },
+          {
+            "name": "sumarijaid",
+            "type": "integer",
+            "format": "default",
+            "title": "Šumarija ID"
+          },
+          {
+            "name": "sumarija",
+            "type": "string",
+            "format": "default",
+            "title": "Šumarija"
+          },
+          {
+            "name": "vrstaid",
+            "type": "integer",
+            "format": "default",
+            "title": "Vrsta drva ID"
+          },
+          {
+            "name": "vrstadrva",
+            "type": "string",
+            "format": "default",
+            "title": "Vrsta drva"
+          },
+          {
+            "name": "doznaceno",
+            "type": "integer",
+            "format": "default",
+            "title": "Doznačena stabla",
+            "description": "Broj doznačenih stabla prema Pravilniku o doznaci stabala, obilježavanju drvnih sortimenata, popratnici i šumskom redu (NN 17/2015) - pod doznakom se podrazumijeva odabiranje, obilježavanje i mjerenje stabala za sječu te obračun drvnog sječivog obujma. Doznačena stabla u 2015.godini su i posječena uz određena odstupanja (npr. zbog vjetroizvala, srušenih stabala, ledoloma i sl. izvanrednih situacija)."
+          }
+      ]
+    }
+  },
+  {
+    "name": "csv-resource-2015",
+    "path": "ps2015_sumarije.csv",
+    "profile": "tabular-data-resource",
+    "title": "Broj doznačenih stabala po vrsti u hrvatskim šumama u 2015. godini",
+    "created": "2017-06-05T00:00:00.00Z",
+    "format": "csv",
+    "sources": [
+      {
+        "title": "Zahtjev za pristup informacijama: Izvršena sječa stabala i pošumljavanje u 2015. godini",
+        "path": "http://imamopravoznati.org/request/izvrsena_sjeca_stabala_i_posumlj#incoming-4662"
+      }
+    ],
+    "schema": {
+      "fields": [
+        {
+          "name": "godina",
+          "type": "integer",
+          "format": "default",
+          "title": "Godina"
+        },
+        {
+          "name": "upravaid",
+          "type": "integer",
+          "format": "default",
+          "title": "Uprava ID"
+        },
+        {
+          "name": "uprava",
+          "type": "string",
+          "format": "default",
+          "title": "Uprava"
+        },
+        {
+          "name": "sumarijaid",
+          "type": "integer",
+          "format": "default",
+          "title": "Šumarija ID"
+        },
+        {
+          "name": "sumarija",
+          "type": "string",
+          "format": "default",
+          "title": "Šumarija"
+        },
+        {
+          "name": "vrstaid",
+          "type": "integer",
+          "format": "default",
+          "title": "Vrsta drva ID"
+        },
+        {
+          "name": "vrstadrva",
+          "type": "string",
+          "format": "default",
+          "title": "Vrsta drva"
+        },
+        {
+          "name": "doznaceno",
+          "type": "integer",
+          "format": "default",
+          "title": "Doznačena stabla",
+          "description": "Broj doznačenih stabla prema Pravilniku o doznaci stabala, obilježavanju drvnih sortimenata, popratnici i šumskom redu (NN 17/2015) - pod doznakom se podrazumijeva odabiranje, obilježavanje i mjerenje stabala za sječu te obračun drvnog sječivog obujma. Doznačena stabla u 2015.godini su i posječena uz određena odstupanja (npr. zbog vjetroizvala, srušenih stabala, ledoloma i sl. izvanrednih situacija)."
+        }
+    ]
+  }
+}
+  ],
+  "name": "doznacena-stabla",
+  "title": "Doznačena stabla hrvatskih šuma",
+  "description": "Broj doznačenih stabla uključuje odabiranje, obilježavanje i mjerenje stabala za sječu te obračun drvnog sječivog obujma.",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "Hrvatske šume",
+      "path": "https://www.hrsume.hr",
+      "role": "publisher"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "role": "contributor"
+    },
+    {
+      "title": "Miroslav Schlossberg",
+      "email": "schlos@users.noreply.github.com",
+      "role": "maintainer"
+    },
+    {
+      "title": "n/a",
+      "role": "wrangler"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Otvorena dozvola (NN 67/2017)",
+      "path": "http://data.gov.hr/otvorena-dozvola"
+    }
+  ]
+}
