@@ -63,6 +63,6 @@ resources:
 license: 'http://data.gov.hr/otvorena-dozvola'
 category:
   - Elections / Politics
-  maintainer: rodik
-  maintainer_email: rodik@users.noreply.github.com
+maintainer: rodik
+maintainer_email: rodik@users.noreply.github.com
 ---
