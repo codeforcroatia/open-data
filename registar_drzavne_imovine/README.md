@@ -7,7 +7,7 @@ resources:
   - name: Registar državne imovine (raw)
     url: >-
       https://github.com/codeforcroatia/open-data/blob/master/registar_drzavne_imovine/nekretnine_25052020.xlsx
-    format: ''
+    format: xls
 license: 'http://data.gov.hr/otvorena-dozvola'
 category:
   - Real Estate / Land Records
