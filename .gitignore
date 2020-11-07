@@ -27,3 +27,6 @@ Temporary Items
 .apdisk
 
 # Source: https://github.com/github/gitignore
+
+# Files that are not finished yet, that have WIP (Work in progress) label in the filename
+WIP-*
