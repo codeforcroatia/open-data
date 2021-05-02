@@ -15,6 +15,6 @@ resources:
 license: 'https://www.openstreetmap.org/copyright'
 category:
   - Real Estate / Land Records
-maintainer: schlos
-maintainer_email: schlos@users.noreply.github.com
+maintainer: rodik
+maintainer_email: rodik@users.noreply.github.com
 ---
