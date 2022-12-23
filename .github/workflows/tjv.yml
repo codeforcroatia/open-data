@@ -1,0 +1,49 @@
+# The schedule event allows you to trigger a workflow at a scheduled time.
+# You can schedule a workflow to run at specific UTC times using POSIX cron syntax.
+# https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # https://crontab.guru/#0_4_24_*_*
+    - cron:  '0 4 24 * *'
+
+jobs:
+  update_tjv_image:
+    runs-on: ubuntu-latest
+    name: Update main tjv dataset in repo
+    steps:
+      # This is required to use the git-auto-commit-action
+      - uses: actions/checkout@v3.2.0
+        with:
+          ref: ${{ github.head_ref }}
+
+      # Load current date
+      # https://github.com/marketplace/actions/current-time
+      # alt: https://github.com/marketplace/actions/current-time-2
+      - name: Get current time
+        uses: gerred/actions/current-time@master
+        id: current-time_2
+
+      # Display current time
+      #- name: Use current time
+      #  env:
+      #    TIME: "${{ steps.current-time.outputs.time }}"
+      #  run: echo $TIME
+
+      # Load and cache the image
+      - name: Fetch tjv csv dataset
+        uses: Minituff/save-image@v1.4
+        id: wakatime_2
+        with:
+          url: 'http://tjv.pristupinfo.hr/?sort=1&page=1&download'
+          imagePath: 'tijela_javne_vlasti/tjv-main-dataset.csv'
+          #requiredContentType: 'text/csv'
+
+      # If you do not commit the changes, then the action does not work
+      - name: "Commit updated changes in tjv image"
+        uses: stefanzweifel/git-auto-commit-action@v4.16.0
+        with:
+          commit_message: Updating tjv image
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
+          commit_author: Author <github-actions[bot]@users.noreply.github.com>
