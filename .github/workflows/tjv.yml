@@ -1,11 +1,12 @@
 # The schedule event allows you to trigger a workflow at a scheduled time.
 # You can schedule a workflow to run at specific UTC times using POSIX cron syntax.
 # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
-on:
-  schedule:
+#on:
+#  schedule:
     # * is a special character in YAML so you have to quote this string
     # https://crontab.guru/#0_4_24_*_*
-    - cron:  '0 4 24 * *'
+#    - cron:  '0 4 24 * *'
+on: workflow_call
 
 jobs:
   update_tjv_image:
