@@ -12,7 +12,7 @@ resources:
     url: >-
       https://github.com/codeforcroatia/open-data/blob/master/stvarni_vlasnici/stvarni_vlasnici_export_20221110.csv
     format: csv
-   - name: Stvarni vlasnici (Portal otvorenih podataka)
+  - name: Stvarni vlasnici (Portal otvorenih podataka)
     url: >-
       https://data.gov.hr/ckan/dataset/registar-stvarnih-vlasnika
     format: html
