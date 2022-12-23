@@ -6,7 +6,13 @@
     # * is a special character in YAML so you have to quote this string
     # https://crontab.guru/#0_4_24_*_*
 #    - cron:  '0 4 24 * *'
-on: workflow_call
+
+# To manually trigger a workflow, use the workflow_dispatch event. You can manually 
+# trigger a workflow run using the GitHub API, GitHub CLI, or GitHub browser interface. 
+# For more information, see "Manually running a workflow."
+# https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
+# https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
+on: workflow_dispatch
 
 jobs:
   update_tjv_image:
