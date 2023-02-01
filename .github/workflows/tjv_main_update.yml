@@ -4,8 +4,9 @@
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
+    # run time is in UTC. max execution time is 5 min.
     # https://crontab.guru/#0_1_1_*_*
-    - cron:  '0 9 1 * *'
+    - cron:  '0 1 1 * *'
 
 jobs:
   update_tjv_image:
